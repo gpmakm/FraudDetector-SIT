@@ -1,8 +1,9 @@
 const express=require('express');
 const app=express();
 const path=require('path');
+const cors=require('cors')
 const fs=require('fs');
-
+app.use(cors())
 const PORT=process.env.PORT||3000;
 const filePath = path.join(__dirname, 'public', 'dataset.json');
 

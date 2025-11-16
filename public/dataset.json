@@ -1,3564 +1,3571 @@
 [
-  {
-    "username": "user1",
-    "account_number": "ACC1001",
-    "credits": [
-      {
-        "amount": 10125,
-        "date": "01/01/2025"
-      },
-      {
-        "amount": 15241,
-        "date": "02/01/2025"
-      },
-      {
-        "amount": 6129,
-        "date": "03/01/2025"
-      },
-      {
-        "amount": 41479,
-        "date": "04/01/2025"
-      },
-      {
-        "amount": 19457,
-        "date": "05/01/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 33116,
-        "date": "06/01/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "07/01/2025"
-      },
-      {
-        "amount": 21862,
-        "date": "08/01/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "09/01/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "10/01/2025"
-      },
-      {
-        "amount": 32859,
-        "date": "11/01/2025"
-      },
-      {
-        "amount": 13520,
-        "date": "12/01/2025"
-      },
-      {
-        "amount": 27070,
-        "date": "13/01/2025"
-      }
-    ],
-    "monthly_transacts": 13,
-    "address": "House 10, Sample Street, City 1",
-    "contact": "9876500000"
-  },
-  {
-    "username": "user2",
-    "account_number": "ACC1002",
-    "credits": [
-      {
-        "amount": 11055,
-        "date": "21/01/2025"
-      },
-      {
-        "amount": 37922,
-        "date": "22/01/2025"
-      },
-      {
-        "amount": 29506,
-        "date": "23/01/2025"
-      },
-      {
-        "amount": 31986,
-        "date": "24/01/2025"
-      },
-      {
-        "amount": 43219,
-        "date": "25/01/2025"
-      },
-      {
-        "amount": 6869,
-        "date": "26/01/2025"
-      },
-      {
-        "amount": 25742,
-        "date": "27/01/2025"
-      },
-      {
-        "amount": 20179,
-        "date": "28/01/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 37891,
-        "date": "29/01/2025"
-      },
-      {
-        "amount": 9024,
-        "date": "30/01/2025"
-      },
-      {
-        "amount": 18615,
-        "date": "31/01/2025"
-      },
-      {
-        "amount": 15689,
-        "date": "01/02/2025"
-      },
-      {
-        "amount": 11857,
-        "date": "02/02/2025"
-      },
-      {
-        "amount": 10633,
-        "date": "03/02/2025"
-      },
-      {
-        "amount": 11878,
-        "date": "04/02/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "05/02/2025"
-      }
-    ],
-    "monthly_transacts": 16,
-    "address": "House 11, Sample Street, City 2",
-    "contact": "9876500001"
-  },
-  {
-    "username": "user3",
-    "account_number": "ACC1003",
-    "credits": [
-      {
-        "amount": 21471,
-        "date": "10/02/2025"
-      },
-      {
-        "amount": 26160,
-        "date": "11/02/2025"
-      },
-      {
-        "amount": 19641,
-        "date": "12/02/2025"
-      },
-      {
-        "amount": 27088,
-        "date": "13/02/2025"
-      },
-      {
-        "amount": 30365,
-        "date": "14/02/2025"
-      },
-      {
-        "amount": 30068,
-        "date": "15/02/2025"
-      },
-      {
-        "amount": 22286,
-        "date": "16/02/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 6371,
-        "date": "17/02/2025"
-      },
-      {
-        "amount": 32844,
-        "date": "18/02/2025"
-      },
-      {
-        "amount": 24882,
-        "date": "19/02/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "20/02/2025"
-      },
-      {
-        "amount": 8588,
-        "date": "21/02/2025"
-      },
-      {
-        "amount": 47669,
-        "date": "22/02/2025"
-      },
-      {
-        "amount": 17592,
-        "date": "23/02/2025"
-      },
-      {
-        "amount": 2795,
-        "date": "24/02/2025"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 12, Sample Street, City 3",
-    "contact": "9876500002"
-  },
-  {
-    "username": "user4",
-    "account_number": "ACC1004",
-    "credits": [
-      {
-        "amount": 42836,
-        "date": "02/03/2025"
-      },
-      {
-        "amount": 33184,
-        "date": "03/03/2025"
-      },
-      {
-        "amount": 9443,
-        "date": "04/03/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "05/03/2025"
-      },
-      {
-        "amount": 42506,
-        "date": "06/03/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 6104,
-        "date": "07/03/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "08/03/2025"
-      },
-      {
-        "amount": 21032,
-        "date": "09/03/2025"
-      },
-      {
-        "amount": 30003,
-        "date": "10/03/2025"
-      },
-      {
-        "amount": 24859,
-        "date": "11/03/2025"
-      },
-      {
-        "amount": 168840,
-        "date": "2025-11-15"
-      }
-    ],
-    "monthly_transacts": 10,
-    "address": "House 13, Sample Street, City 4",
-    "contact": "9876500003"
-  },
-  {
-    "username": "user5",
-    "account_number": "ACC1005",
-    "credits": [
-      {
-        "amount": 500000,
-        "date": "22/03/2025"
-      },
-      {
-        "amount": 28988,
-        "date": "23/03/2025"
-      },
-      {
-        "amount": 1959,
-        "date": "24/03/2025"
-      },
-      {
-        "amount": 37603,
-        "date": "25/03/2025"
-      },
-      {
-        "amount": 46751,
-        "date": "26/03/2025"
-      },
-      {
-        "amount": 36850,
-        "date": "27/03/2025"
-      },
-      {
-        "amount": 37060,
-        "date": "28/03/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 14304,
-        "date": "29/03/2025"
-      },
-      {
-        "amount": 34778,
-        "date": "30/03/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "31/03/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "01/04/2025"
-      },
-      {
-        "amount": 31221,
-        "date": "02/04/2025"
-      }
-    ],
-    "monthly_transacts": 12,
-    "address": "House 14, Sample Street, City 5",
-    "contact": "9876500004"
-  },
-  {
-    "username": "user6",
-    "account_number": "ACC1006",
-    "credits": [
-      {
-        "amount": 11632,
-        "date": "11/04/2025"
-      },
-      {
-        "amount": 42891,
-        "date": "12/04/2025"
-      },
-      {
-        "amount": 9123,
-        "date": "13/04/2025"
-      },
-      {
-        "amount": 22220,
-        "date": "14/04/2025"
-      },
-      {
-        "amount": 21733,
-        "date": "15/04/2025"
-      },
-      {
-        "amount": 31554,
-        "date": "16/04/2025"
-      },
-      {
-        "amount": 38654,
-        "date": "17/04/2025"
-      },
-      {
-        "amount": 14334,
-        "date": "18/04/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 500000,
-        "date": "19/04/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "20/04/2025"
-      },
-      {
-        "amount": 18351,
-        "date": "21/04/2025"
-      },
-      {
-        "amount": 5205,
-        "date": "22/04/2025"
-      },
-      {
-        "amount": 32653,
-        "date": "23/04/2025"
-      },
-      {
-        "amount": 10598,
-        "date": "24/04/2025"
-      },
-      {
-        "amount": 43320,
-        "date": "25/04/2025"
-      },
-      {
-        "amount": 33045,
-        "date": "26/04/2025"
-      },
-      {
-        "amount": 24165,
-        "date": "27/04/2025"
-      }
-    ],
-    "monthly_transacts": 17,
-    "address": "House 15, Sample Street, City 6",
-    "contact": "9876500005"
-  },
-  {
-    "username": "user7",
-    "account_number": "ACC1007",
-    "credits": [
-      {
-        "amount": 12460,
-        "date": "01/05/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "02/05/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "03/05/2025"
-      },
-      {
-        "amount": 41478,
-        "date": "04/05/2025"
-      },
-      {
-        "amount": 23841,
-        "date": "05/05/2025"
-      },
-      {
-        "amount": 31194,
-        "date": "06/05/2025"
-      },
-      {
-        "amount": 48847,
-        "date": "07/05/2025"
-      },
-      {
-        "amount": 39914,
-        "date": "08/05/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 2627,
-        "date": "09/05/2025"
-      },
-      {
-        "amount": 18574,
-        "date": "10/05/2025"
-      },
-      {
-        "amount": 27384,
-        "date": "11/05/2025"
-      },
-      {
-        "amount": 29159,
-        "date": "12/05/2025"
-      },
-      {
-        "amount": 40950,
-        "date": "13/05/2025"
-      }
-    ],
-    "monthly_transacts": 13,
-    "address": "House 16, Sample Street, City 7",
-    "contact": "9876500006"
-  },
-  {
-    "username": "user8",
-    "account_number": "ACC1008",
-    "credits": [
-      {
-        "amount": 300000,
-        "date": "21/05/2025"
-      },
-      {
-        "amount": 47853,
-        "date": "22/05/2025"
-      },
-      {
-        "amount": 10223,
-        "date": "23/05/2025"
-      },
-      {
-        "amount": 3794,
-        "date": "24/05/2025"
-      },
-      {
-        "amount": 18331,
-        "date": "25/05/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "26/05/2025"
-      },
-      {
-        "amount": 32211,
-        "date": "27/05/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 38553,
-        "date": "28/05/2025"
-      },
-      {
-        "amount": 36313,
-        "date": "29/05/2025"
-      },
-      {
-        "amount": 30410,
-        "date": "30/05/2025"
-      },
-      {
-        "amount": 6613,
-        "date": "31/05/2025"
-      },
-      {
-        "amount": 6577,
-        "date": "01/06/2025"
-      },
-      {
-        "amount": 37951,
-        "date": "02/06/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "03/06/2025"
-      }
-    ],
-    "monthly_transacts": 14,
-    "address": "House 17, Sample Street, City 8",
-    "contact": "9876500007"
-  },
-  {
-    "username": "user9",
-    "account_number": "ACC1009",
-    "credits": [
-      {
-        "amount": 400000,
-        "date": "10/06/2025"
-      },
-      {
-        "amount": 49439,
-        "date": "11/06/2025"
-      },
-      {
-        "amount": 5375,
-        "date": "12/06/2025"
-      },
-      {
-        "amount": 20847,
-        "date": "13/06/2025"
-      },
-      {
-        "amount": 24550,
-        "date": "14/06/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 1123,
-        "date": "15/06/2025"
-      },
-      {
-        "amount": 36407,
-        "date": "16/06/2025"
-      },
-      {
-        "amount": 36767,
-        "date": "17/06/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "18/06/2025"
-      },
-      {
-        "amount": 23708,
-        "date": "19/06/2025"
-      }
-    ],
-    "monthly_transacts": 10,
-    "address": "House 18, Sample Street, City 9",
-    "contact": "9876500008"
-  },
-  {
-    "username": "user10",
-    "account_number": "ACC1010",
-    "credits": [
-      {
-        "amount": 18765,
-        "date": "30/06/2025"
-      },
-      {
-        "amount": 45387,
-        "date": "01/07/2025"
-      },
-      {
-        "amount": 34898,
-        "date": "02/07/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "03/07/2025"
-      },
-      {
-        "amount": 27151,
-        "date": "04/07/2025"
-      },
-      {
-        "amount": 879,
-        "date": "05/07/2025"
-      },
-      {
-        "amount": 28049,
-        "date": "06/07/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 18145,
-        "date": "07/07/2025"
-      },
-      {
-        "amount": 11389,
-        "date": "08/07/2025"
-      },
-      {
-        "amount": 5310,
-        "date": "09/07/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "10/07/2025"
-      },
-      {
-        "amount": 22252,
-        "date": "11/07/2025"
-      },
-      {
-        "amount": 16090,
-        "date": "12/07/2025"
-      }
-    ],
-    "monthly_transacts": 13,
-    "address": "House 19, Sample Street, City 10",
-    "contact": "9876500009"
-  },
-  {
-    "username": "user11",
-    "account_number": "ACC1011",
-    "credits": [
-      {
-        "amount": 43083,
-        "date": "20/07/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "21/07/2025"
-      },
-      {
-        "amount": 44496,
-        "date": "22/07/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "23/07/2025"
-      },
-      {
-        "amount": 49837,
-        "date": "24/07/2025"
-      },
-      {
-        "amount": 36675,
-        "date": "25/07/2025"
-      },
-      {
-        "amount": 38833,
-        "date": "26/07/2025"
-      },
-      {
-        "amount": 19039,
-        "date": "27/07/2025"
-      },
-      {
-        "amount": 221450,
-        "date": "2025-11-15"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 21886,
-        "date": "28/07/2025"
-      },
-      {
-        "amount": 34838,
-        "date": "29/07/2025"
-      },
-      {
-        "amount": 20556,
-        "date": "30/07/2025"
-      },
-      {
-        "amount": 3211,
-        "date": "31/07/2025"
-      },
-      {
-        "amount": 15951,
-        "date": "01/08/2025"
-      },
-      {
-        "amount": 19824,
-        "date": "02/08/2025"
-      },
-      {
-        "amount": 42326,
-        "date": "03/08/2025"
-      },
-      {
-        "amount": 5717,
-        "date": "04/08/2025"
-      }
-    ],
-    "monthly_transacts": 16,
-    "address": "House 20, Sample Street, City 11",
-    "contact": "9876500010"
-  },
-  {
-    "username": "user12",
-    "account_number": "ACC1012",
-    "credits": [
-      {
-        "amount": 25572,
-        "date": "09/08/2025"
-      },
-      {
-        "amount": 6061,
-        "date": "10/08/2025"
-      },
-      {
-        "amount": 3209,
-        "date": "11/08/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "12/08/2025"
-      },
-      {
-        "amount": 8069,
-        "date": "13/08/2025"
-      },
-      {
-        "amount": 30875,
-        "date": "14/08/2025"
-      },
-      {
-        "amount": 19794,
-        "date": "15/08/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 14914,
-        "date": "16/08/2025"
-      },
-      {
-        "amount": 27644,
-        "date": "17/08/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "18/08/2025"
-      },
-      {
-        "amount": 35049,
-        "date": "19/08/2025"
-      },
-      {
-        "amount": 3325,
-        "date": "20/08/2025"
-      },
-      {
-        "amount": 4817,
-        "date": "21/08/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "22/08/2025"
-      },
-      {
-        "amount": 9405,
-        "date": "23/08/2025"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 21, Sample Street, City 12",
-    "contact": "9876500011"
-  },
-  {
-    "username": "user13",
-    "account_number": "ACC1013",
-    "credits": [
-      {
-        "amount": 8427,
-        "date": "29/08/2025"
-      },
-      {
-        "amount": 14141,
-        "date": "30/08/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "31/08/2025"
-      },
-      {
-        "amount": 24358,
-        "date": "01/09/2025"
-      },
-      {
-        "amount": 823,
-        "date": "02/09/2025"
-      },
-      {
-        "amount": 14232,
-        "date": "03/09/2025"
-      },
-      {
-        "amount": 18877,
-        "date": "04/09/2025"
-      },
-      {
-        "amount": 1461,
-        "date": "05/09/2025"
-      },
-      {
-        "amount": 13377,
-        "date": "06/09/2025"
-      },
-      {
-        "amount": 14193,
-        "date": "07/09/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 3009,
-        "date": "08/09/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "09/09/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "10/09/2025"
-      },
-      {
-        "amount": 31135,
-        "date": "11/09/2025"
-      },
-      {
-        "amount": 40199,
-        "date": "12/09/2025"
-      },
-      {
-        "amount": 44616,
-        "date": "13/09/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "14/09/2025"
-      },
-      {
-        "amount": 33516,
-        "date": "15/09/2025"
-      },
-      {
-        "amount": 19050,
-        "date": "16/09/2025"
-      },
-      {
-        "amount": 49602,
-        "date": "17/09/2025"
-      }
-    ],
-    "monthly_transacts": 20,
-    "address": "House 22, Sample Street, City 13",
-    "contact": "9876500012"
-  },
-  {
-    "username": "user14",
-    "account_number": "ACC1014",
-    "credits": [
-      {
-        "amount": 15111,
-        "date": "18/09/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "19/09/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "20/09/2025"
-      },
-      {
-        "amount": 41466,
-        "date": "21/09/2025"
-      },
-      {
-        "amount": 44089,
-        "date": "22/09/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 29412,
-        "date": "23/09/2025"
-      },
-      {
-        "amount": 46322,
-        "date": "24/09/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "25/09/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "26/09/2025"
-      },
-      {
-        "amount": 28227,
-        "date": "27/09/2025"
-      },
-      {
-        "amount": 42263,
-        "date": "28/09/2025"
-      },
-      {
-        "amount": 9331,
-        "date": "29/09/2025"
-      }
-    ],
-    "monthly_transacts": 12,
-    "address": "House 23, Sample Street, City 14",
-    "contact": "9876500013"
-  },
-  {
-    "username": "user15",
-    "account_number": "ACC1015",
-    "credits": [
-      {
-        "amount": 49977,
-        "date": "08/10/2025"
-      },
-      {
-        "amount": 36020,
-        "date": "09/10/2025"
-      },
-      {
-        "amount": 27693,
-        "date": "10/10/2025"
-      },
-      {
-        "amount": 1030,
-        "date": "11/10/2025"
-      },
-      {
-        "amount": 14958,
-        "date": "12/10/2025"
-      },
-      {
-        "amount": 49148,
-        "date": "13/10/2025"
-      },
-      {
-        "amount": 46916,
-        "date": "14/10/2025"
-      },
-      {
-        "amount": 26265,
-        "date": "15/10/2025"
-      },
-      {
-        "amount": 16072,
-        "date": "16/10/2025"
-      },
-      {
-        "amount": 33194,
-        "date": "17/10/2025"
-      },
-      {
-        "amount": 570456,
-        "date": "2025-11-15"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 48557,
-        "date": "18/10/2025"
-      },
-      {
-        "amount": 5027,
-        "date": "19/10/2025"
-      },
-      {
-        "amount": 23923,
-        "date": "20/10/2025"
-      },
-      {
-        "amount": 47882,
-        "date": "21/10/2025"
-      },
-      {
-        "amount": 19122,
-        "date": "22/10/2025"
-      },
-      {
-        "amount": 33247,
-        "date": "23/10/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "24/10/2025"
-      }
-    ],
-    "monthly_transacts": 17,
-    "address": "House 24, Sample Street, City 15",
-    "contact": "9876500014"
-  },
-  {
-    "username": "user16",
-    "account_number": "ACC1016",
-    "credits": [
-      {
-        "amount": 31150,
-        "date": "28/10/2025"
-      },
-      {
-        "amount": 24258,
-        "date": "29/10/2025"
-      },
-      {
-        "amount": 39239,
-        "date": "30/10/2025"
-      },
-      {
-        "amount": 400000,
-        "date": "31/10/2025"
-      },
-      {
-        "amount": 34207,
-        "date": "01/11/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "02/11/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 11397,
-        "date": "03/11/2025"
-      },
-      {
-        "amount": 9288,
-        "date": "04/11/2025"
-      },
-      {
-        "amount": 22788,
-        "date": "05/11/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "06/11/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "07/11/2025"
-      },
-      {
-        "amount": 29072,
-        "date": "08/11/2025"
-      },
-      {
-        "amount": 32323,
-        "date": "09/11/2025"
-      },
-      {
-        "amount": 11368,
-        "date": "10/11/2025"
-      },
-      {
-        "amount": 2589,
-        "date": "11/11/2025"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 25, Sample Street, City 16",
-    "contact": "9876500015"
-  },
-  {
-    "username": "user17",
-    "account_number": "ACC1017",
-    "credits": [
-      {
-        "amount": 32233,
-        "date": "17/11/2025"
-      },
-      {
-        "amount": 38176,
-        "date": "18/11/2025"
-      },
-      {
-        "amount": 11257,
-        "date": "19/11/2025"
-      },
-      {
-        "amount": 38139,
-        "date": "20/11/2025"
-      },
-      {
-        "amount": 47621,
-        "date": "21/11/2025"
-      },
-      {
-        "amount": 31955,
-        "date": "22/11/2025"
-      },
-      {
-        "amount": 2615,
-        "date": "23/11/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 41259,
-        "date": "24/11/2025"
-      },
-      {
-        "amount": 11104,
-        "date": "25/11/2025"
-      },
-      {
-        "amount": 2007,
-        "date": "26/11/2025"
-      },
-      {
-        "amount": 18398,
-        "date": "27/11/2025"
-      },
-      {
-        "amount": 24009,
-        "date": "28/11/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "29/11/2025"
-      },
-      {
-        "amount": 45670,
-        "date": "30/11/2025"
-      },
-      {
-        "amount": 4859,
-        "date": "01/12/2025"
-      },
-      {
-        "amount": 30635,
-        "date": "02/12/2025"
-      },
-      {
-        "amount": 20847,
-        "date": "03/12/2025"
-      }
-    ],
-    "monthly_transacts": 17,
-    "address": "House 26, Sample Street, City 17",
-    "contact": "9876500016"
-  },
-  {
-    "username": "user18",
-    "account_number": "ACC1018",
-    "credits": [
-      {
-        "amount": 37120,
-        "date": "07/12/2025"
-      },
-      {
-        "amount": 11459,
-        "date": "08/12/2025"
-      },
-      {
-        "amount": 23939,
-        "date": "09/12/2025"
-      },
-      {
-        "amount": 500000,
-        "date": "10/12/2025"
-      },
-      {
-        "amount": 17898,
-        "date": "11/12/2025"
-      },
-      {
-        "amount": 2113,
-        "date": "12/12/2025"
-      },
-      {
-        "amount": 32044,
-        "date": "13/12/2025"
-      },
-      {
-        "amount": 20646,
-        "date": "14/12/2025"
-      },
-      {
-        "amount": 3477,
-        "date": "15/12/2025"
-      },
-      {
-        "amount": 19896,
-        "date": "16/12/2025"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 30996,
-        "date": "17/12/2025"
-      },
-      {
-        "amount": 12731,
-        "date": "18/12/2025"
-      },
-      {
-        "amount": 591,
-        "date": "19/12/2025"
-      },
-      {
-        "amount": 9918,
-        "date": "20/12/2025"
-      },
-      {
-        "amount": 17174,
-        "date": "21/12/2025"
-      },
-      {
-        "amount": 26160,
-        "date": "22/12/2025"
-      },
-      {
-        "amount": 40086,
-        "date": "23/12/2025"
-      },
-      {
-        "amount": 40854,
-        "date": "24/12/2025"
-      },
-      {
-        "amount": 1287,
-        "date": "25/12/2025"
-      }
-    ],
-    "monthly_transacts": 19,
-    "address": "House 27, Sample Street, City 18",
-    "contact": "9876500017"
-  },
-  {
-    "username": "user19",
-    "account_number": "ACC1019",
-    "credits": [
-      {
-        "amount": 4289,
-        "date": "27/12/2025"
-      },
-      {
-        "amount": 1795,
-        "date": "28/12/2025"
-      },
-      {
-        "amount": 300000,
-        "date": "29/12/2025"
-      },
-      {
-        "amount": 33705,
-        "date": "30/12/2025"
-      },
-      {
-        "amount": 43996,
-        "date": "31/12/2025"
-      },
-      {
-        "amount": 3116,
-        "date": "01/01/2026"
-      },
-      {
-        "amount": 23353,
-        "date": "02/01/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 45288,
-        "date": "03/01/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "04/01/2026"
-      },
-      {
-        "amount": 13423,
-        "date": "05/01/2026"
-      },
-      {
-        "amount": 17668,
-        "date": "06/01/2026"
-      },
-      {
-        "amount": 38670,
-        "date": "07/01/2026"
-      },
-      {
-        "amount": 6213,
-        "date": "08/01/2026"
-      },
-      {
-        "amount": 33065,
-        "date": "09/01/2026"
-      },
-      {
-        "amount": 16808,
-        "date": "10/01/2026"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 28, Sample Street, City 19",
-    "contact": "9876500018"
-  },
-  {
-    "username": "user20",
-    "account_number": "ACC1020",
-    "credits": [
-      {
-        "amount": 36074,
-        "date": "16/01/2026"
-      },
-      {
-        "amount": 19898,
-        "date": "17/01/2026"
-      },
-      {
-        "amount": 37372,
-        "date": "18/01/2026"
-      },
-      {
-        "amount": 9236,
-        "date": "19/01/2026"
-      },
-      {
-        "amount": 35256,
-        "date": "20/01/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 37790,
-        "date": "21/01/2026"
-      },
-      {
-        "amount": 25150,
-        "date": "22/01/2026"
-      },
-      {
-        "amount": 15248,
-        "date": "23/01/2026"
-      },
-      {
-        "amount": 23146,
-        "date": "24/01/2026"
-      },
-      {
-        "amount": 4017,
-        "date": "25/01/2026"
-      },
-      {
-        "amount": 15943,
-        "date": "26/01/2026"
-      },
-      {
-        "amount": 13185,
-        "date": "27/01/2026"
-      },
-      {
-        "amount": 47451,
-        "date": "28/01/2026"
-      },
-      {
-        "amount": 36190,
-        "date": "29/01/2026"
-      }
-    ],
-    "monthly_transacts": 14,
-    "address": "House 29, Sample Street, City 20",
-    "contact": "9876500019"
-  },
-  {
-    "username": "user21",
-    "account_number": "ACC1021",
-    "credits": [
-      {
-        "amount": 300000,
-        "date": "05/02/2026"
-      },
-      {
-        "amount": 20055,
-        "date": "06/02/2026"
-      },
-      {
-        "amount": 35967,
-        "date": "07/02/2026"
-      },
-      {
-        "amount": 31875,
-        "date": "08/02/2026"
-      },
-      {
-        "amount": 17583,
-        "date": "09/02/2026"
-      },
-      {
-        "amount": 47684,
-        "date": "10/02/2026"
-      },
-      {
-        "amount": 16766,
-        "date": "11/02/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "12/02/2026"
-      },
-      {
-        "amount": 24779,
-        "date": "13/02/2026"
-      },
-      {
-        "amount": 30915,
-        "date": "14/02/2026"
-      },
-      {
-        "amount": 850715,
-        "date": "2025-11-15"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 27954,
-        "date": "15/02/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "16/02/2026"
-      },
-      {
-        "amount": 13059,
-        "date": "17/02/2026"
-      },
-      {
-        "amount": 47071,
-        "date": "18/02/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "19/02/2026"
-      },
-      {
-        "amount": 17926,
-        "date": "20/02/2026"
-      },
-      {
-        "amount": 48215,
-        "date": "21/02/2026"
-      }
-    ],
-    "monthly_transacts": 17,
-    "address": "House 30, Sample Street, City 21",
-    "contact": "9876500020"
-  },
-  {
-    "username": "user22",
-    "account_number": "ACC1022",
-    "credits": [
-      {
-        "amount": 400000,
-        "date": "25/02/2026"
-      },
-      {
-        "amount": 23130,
-        "date": "26/02/2026"
-      },
-      {
-        "amount": 12035,
-        "date": "27/02/2026"
-      },
-      {
-        "amount": 25107,
-        "date": "28/02/2026"
-      },
-      {
-        "amount": 31158,
-        "date": "01/03/2026"
-      },
-      {
-        "amount": 12268,
-        "date": "02/03/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 41357,
-        "date": "03/03/2026"
-      },
-      {
-        "amount": 27674,
-        "date": "04/03/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "05/03/2026"
-      },
-      {
-        "amount": 45177,
-        "date": "06/03/2026"
-      },
-      {
-        "amount": 45589,
-        "date": "07/03/2026"
-      },
-      {
-        "amount": 4859,
-        "date": "08/03/2026"
-      },
-      {
-        "amount": 37989,
-        "date": "09/03/2026"
-      },
-      {
-        "amount": 37408,
-        "date": "10/03/2026"
-      },
-      {
-        "amount": 36891,
-        "date": "11/03/2026"
-      },
-      {
-        "amount": 30141,
-        "date": "12/03/2026"
-      }
-    ],
-    "monthly_transacts": 16,
-    "address": "House 31, Sample Street, City 22",
-    "contact": "9876500021"
-  },
-  {
-    "username": "user23",
-    "account_number": "ACC1023",
-    "credits": [
-      {
-        "amount": 500000,
-        "date": "17/03/2026"
-      },
-      {
-        "amount": 38299,
-        "date": "18/03/2026"
-      },
-      {
-        "amount": 36591,
-        "date": "19/03/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "20/03/2026"
-      },
-      {
-        "amount": 42928,
-        "date": "21/03/2026"
-      },
-      {
-        "amount": 27475,
-        "date": "22/03/2026"
-      },
-      {
-        "amount": 40778,
-        "date": "23/03/2026"
-      },
-      {
-        "amount": 1282,
-        "date": "24/03/2026"
-      },
-      {
-        "amount": 4240,
-        "date": "25/03/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "26/03/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 21043,
-        "date": "27/03/2026"
-      },
-      {
-        "amount": 3818,
-        "date": "28/03/2026"
-      },
-      {
-        "amount": 35795,
-        "date": "29/03/2026"
-      },
-      {
-        "amount": 8603,
-        "date": "30/03/2026"
-      },
-      {
-        "amount": 36190,
-        "date": "31/03/2026"
-      },
-      {
-        "amount": 12397,
-        "date": "01/04/2026"
-      }
-    ],
-    "monthly_transacts": 16,
-    "address": "House 32, Sample Street, City 23",
-    "contact": "9876500022"
-  },
-  {
-    "username": "user24",
-    "account_number": "ACC1024",
-    "credits": [
-      {
-        "amount": 30011,
-        "date": "06/04/2026"
-      },
-      {
-        "amount": 44889,
-        "date": "07/04/2026"
-      },
-      {
-        "amount": 24728,
-        "date": "08/04/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "09/04/2026"
-      },
-      {
-        "amount": 5333,
-        "date": "10/04/2026"
-      },
-      {
-        "amount": 4643,
-        "date": "11/04/2026"
-      },
-      {
-        "amount": 2187,
-        "date": "12/04/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "13/04/2026"
-      },
-      {
-        "amount": 45175,
-        "date": "14/04/2026"
-      },
-      {
-        "amount": 18713,
-        "date": "15/04/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 21207,
-        "date": "16/04/2026"
-      },
-      {
-        "amount": 43529,
-        "date": "17/04/2026"
-      },
-      {
-        "amount": 16587,
-        "date": "18/04/2026"
-      },
-      {
-        "amount": 17064,
-        "date": "19/04/2026"
-      },
-      {
-        "amount": 21970,
-        "date": "20/04/2026"
-      },
-      {
-        "amount": 21054,
-        "date": "21/04/2026"
-      },
-      {
-        "amount": 33960,
-        "date": "22/04/2026"
-      },
-      {
-        "amount": 3156,
-        "date": "23/04/2026"
-      },
-      {
-        "amount": 35292,
-        "date": "24/04/2026"
-      }
-    ],
-    "monthly_transacts": 19,
-    "address": "House 33, Sample Street, City 24",
-    "contact": "9876500023"
-  },
-  {
-    "username": "user25",
-    "account_number": "ACC1025",
-    "credits": [
-      {
-        "amount": 18437,
-        "date": "26/04/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "27/04/2026"
-      },
-      {
-        "amount": 6830,
-        "date": "28/04/2026"
-      },
-      {
-        "amount": 14090,
-        "date": "29/04/2026"
-      },
-      {
-        "amount": 45023,
-        "date": "30/04/2026"
-      },
-      {
-        "amount": 45740,
-        "date": "01/05/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "02/05/2026"
-      },
-      {
-        "amount": 6265,
-        "date": "03/05/2026"
-      },
-      {
-        "amount": 30684,
-        "date": "04/05/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 39162,
-        "date": "05/05/2026"
-      },
-      {
-        "amount": 17236,
-        "date": "06/05/2026"
-      },
-      {
-        "amount": 22339,
-        "date": "07/05/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "08/05/2026"
-      },
-      {
-        "amount": 20127,
-        "date": "09/05/2026"
-      },
-      {
-        "amount": 19041,
-        "date": "10/05/2026"
-      },
-      {
-        "amount": 35090,
-        "date": "11/05/2026"
-      }
-    ],
-    "monthly_transacts": 16,
-    "address": "House 34, Sample Street, City 25",
-    "contact": "9876500024"
-  },
-  {
-    "username": "user26",
-    "account_number": "ACC1026",
-    "credits": [
-      {
-        "amount": 45429,
-        "date": "16/05/2026"
-      },
-      {
-        "amount": 33880,
-        "date": "17/05/2026"
-      },
-      {
-        "amount": 28959,
-        "date": "18/05/2026"
-      },
-      {
-        "amount": 33186,
-        "date": "19/05/2026"
-      },
-      {
-        "amount": 21081,
-        "date": "20/05/2026"
-      },
-      {
-        "amount": 25966,
-        "date": "21/05/2026"
-      },
-      {
-        "amount": 37276,
-        "date": "22/05/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "23/05/2026"
-      },
-      {
-        "amount": 5956,
-        "date": "24/05/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 300000,
-        "date": "25/05/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "26/05/2026"
-      },
-      {
-        "amount": 22212,
-        "date": "27/05/2026"
-      },
-      {
-        "amount": 34973,
-        "date": "28/05/2026"
-      },
-      {
-        "amount": 15000,
-        "date": "29/05/2026"
-      },
-      {
-        "amount": 12470,
-        "date": "30/05/2026"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 35, Sample Street, City 26",
-    "contact": "9876500025"
-  },
-  {
-    "username": "user27",
-    "account_number": "ACC1027",
-    "credits": [
-      {
-        "amount": 16712,
-        "date": "05/06/2026"
-      },
-      {
-        "amount": 26067,
-        "date": "06/06/2026"
-      },
-      {
-        "amount": 9245,
-        "date": "07/06/2026"
-      },
-      {
-        "amount": 21225,
-        "date": "08/06/2026"
-      },
-      {
-        "amount": 18743,
-        "date": "09/06/2026"
-      },
-      {
-        "amount": 35474,
-        "date": "10/06/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 500000,
-        "date": "11/06/2026"
-      },
-      {
-        "amount": 43747,
-        "date": "12/06/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "13/06/2026"
-      },
-      {
-        "amount": 39166,
-        "date": "14/06/2026"
-      },
-      {
-        "amount": 10749,
-        "date": "15/06/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "16/06/2026"
-      }
-    ],
-    "monthly_transacts": 12,
-    "address": "House 36, Sample Street, City 27",
-    "contact": "9876500026"
-  },
-  {
-    "username": "user28",
-    "account_number": "ACC1028",
-    "credits": [
-      {
-        "amount": 9410,
-        "date": "25/06/2026"
-      },
-      {
-        "amount": 9547,
-        "date": "26/06/2026"
-      },
-      {
-        "amount": 13052,
-        "date": "27/06/2026"
-      },
-      {
-        "amount": 49744,
-        "date": "28/06/2026"
-      },
-      {
-        "amount": 46901,
-        "date": "29/06/2026"
-      },
-      {
-        "amount": 46441,
-        "date": "30/06/2026"
-      },
-      {
-        "amount": 12887,
-        "date": "01/07/2026"
-      },
-      {
-        "amount": 38858,
-        "date": "02/07/2026"
-      },
-      {
-        "amount": 3536,
-        "date": "03/07/2026"
-      },
-      {
-        "amount": 43820,
-        "date": "04/07/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 500000,
-        "date": "05/07/2026"
-      },
-      {
-        "amount": 38611,
-        "date": "06/07/2026"
-      },
-      {
-        "amount": 4472,
-        "date": "07/07/2026"
-      },
-      {
-        "amount": 38026,
-        "date": "08/07/2026"
-      },
-      {
-        "amount": 8277,
-        "date": "09/07/2026"
-      },
-      {
-        "amount": 11404,
-        "date": "10/07/2026"
-      },
-      {
-        "amount": 299497,
-        "date": "2025-11-15"
-      }
-    ],
-    "monthly_transacts": 16,
-    "address": "House 37, Sample Street, City 28",
-    "contact": "9876500027"
-  },
-  {
-    "username": "user29",
-    "account_number": "ACC1029",
-    "credits": [
-      {
-        "amount": 27947,
-        "date": "15/07/2026"
-      },
-      {
-        "amount": 1596,
-        "date": "16/07/2026"
-      },
-      {
-        "amount": 33582,
-        "date": "17/07/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "18/07/2026"
-      },
-      {
-        "amount": 22150,
-        "date": "19/07/2026"
-      },
-      {
-        "amount": 48925,
-        "date": "20/07/2026"
-      },
-      {
-        "amount": 14651,
-        "date": "21/07/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "22/07/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 39338,
-        "date": "23/07/2026"
-      },
-      {
-        "amount": 7652,
-        "date": "24/07/2026"
-      },
-      {
-        "amount": 39929,
-        "date": "25/07/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "26/07/2026"
-      },
-      {
-        "amount": 2106,
-        "date": "27/07/2026"
-      },
-      {
-        "amount": 41319,
-        "date": "28/07/2026"
-      },
-      {
-        "amount": 12291,
-        "date": "29/07/2026"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 38, Sample Street, City 29",
-    "contact": "9876500028"
-  },
-  {
-    "username": "user30",
-    "account_number": "ACC1030",
-    "credits": [
-      {
-        "amount": 300000,
-        "date": "04/08/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "05/08/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "06/08/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "07/08/2026"
-      },
-      {
-        "amount": 40689,
-        "date": "08/08/2026"
-      },
-      {
-        "amount": 3606,
-        "date": "09/08/2026"
-      },
-      {
-        "amount": 5687,
-        "date": "10/08/2026"
-      },
-      {
-        "amount": 31294,
-        "date": "11/08/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 13653,
-        "date": "12/08/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "13/08/2026"
-      },
-      {
-        "amount": 37907,
-        "date": "14/08/2026"
-      },
-      {
-        "amount": 23676,
-        "date": "15/08/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "16/08/2026"
-      },
-      {
-        "amount": 21915,
-        "date": "17/08/2026"
-      }
-    ],
-    "monthly_transacts": 14,
-    "address": "House 39, Sample Street, City 30",
-    "contact": "9876500029"
-  },
-  {
-    "username": "user31",
-    "account_number": "ACC1031",
-    "credits": [
-      {
-        "amount": 6060,
-        "date": "24/08/2026"
-      },
-      {
-        "amount": 300000,
-        "date": "25/08/2026"
-      },
-      {
-        "amount": 14417,
-        "date": "26/08/2026"
-      },
-      {
-        "amount": 37109,
-        "date": "27/08/2026"
-      },
-      {
-        "amount": 35310,
-        "date": "28/08/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 8755,
-        "date": "29/08/2026"
-      },
-      {
-        "amount": 18605,
-        "date": "30/08/2026"
-      },
-      {
-        "amount": 20392,
-        "date": "31/08/2026"
-      },
-      {
-        "amount": 4788,
-        "date": "01/09/2026"
-      },
-      {
-        "amount": 13249,
-        "date": "02/09/2026"
-      },
-      {
-        "amount": 3184,
-        "date": "03/09/2026"
-      },
-      {
-        "amount": 6042,
-        "date": "04/09/2026"
-      }
-    ],
-    "monthly_transacts": 12,
-    "address": "House 40, Sample Street, City 31",
-    "contact": "9876500030"
-  },
-  {
-    "username": "user32",
-    "account_number": "ACC1032",
-    "credits": [
-      {
-        "amount": 33352,
-        "date": "13/09/2026"
-      },
-      {
-        "amount": 35278,
-        "date": "14/09/2026"
-      },
-      {
-        "amount": 5432,
-        "date": "15/09/2026"
-      },
-      {
-        "amount": 21033,
-        "date": "16/09/2026"
-      },
-      {
-        "amount": 14682,
-        "date": "17/09/2026"
-      },
-      {
-        "amount": 25969,
-        "date": "18/09/2026"
-      },
-      {
-        "amount": 39978,
-        "date": "19/09/2026"
-      },
-      {
-        "amount": 43173,
-        "date": "20/09/2026"
-      },
-      {
-        "amount": 31369,
-        "date": "21/09/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 25793,
-        "date": "22/09/2026"
-      },
-      {
-        "amount": 15693,
-        "date": "23/09/2026"
-      },
-      {
-        "amount": 12127,
-        "date": "24/09/2026"
-      },
-      {
-        "amount": 32885,
-        "date": "25/09/2026"
-      },
-      {
-        "amount": 12165,
-        "date": "26/09/2026"
-      },
-      {
-        "amount": 17467,
-        "date": "27/09/2026"
-      },
-      {
-        "amount": 32676,
-        "date": "28/09/2026"
-      },
-      {
-        "amount": 47069,
-        "date": "29/09/2026"
-      },
-      {
-        "amount": 44848,
-        "date": "30/09/2026"
-      },
-      {
-        "amount": 15581,
-        "date": "01/10/2026"
-      }
-    ],
-    "monthly_transacts": 19,
-    "address": "House 41, Sample Street, City 32",
-    "contact": "9876500031"
-  },
-  {
-    "username": "user33",
-    "account_number": "ACC1033",
-    "credits": [
-      {
-        "amount": 19894,
-        "date": "03/10/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "04/10/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "05/10/2026"
-      },
-      {
-        "amount": 13300,
-        "date": "06/10/2026"
-      },
-      {
-        "amount": 38108,
-        "date": "07/10/2026"
-      },
-      {
-        "amount": 5194,
-        "date": "08/10/2026"
-      },
-      {
-        "amount": 45263,
-        "date": "09/10/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 14537,
-        "date": "10/10/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "11/10/2026"
-      },
-      {
-        "amount": 43841,
-        "date": "12/10/2026"
-      },
-      {
-        "amount": 20482,
-        "date": "13/10/2026"
-      },
-      {
-        "amount": 34460,
-        "date": "14/10/2026"
-      },
-      {
-        "amount": 11350,
-        "date": "15/10/2026"
-      },
-      {
-        "amount": 34976,
-        "date": "16/10/2026"
-      },
-      {
-        "amount": 454548,
-        "date": "2025-11-15"
-      }
-    ],
-    "monthly_transacts": 14,
-    "address": "House 42, Sample Street, City 33",
-    "contact": "9876500032"
-  },
-  {
-    "username": "user34",
-    "account_number": "ACC1034",
-    "credits": [
-      {
-        "amount": 13067,
-        "date": "23/10/2026"
-      },
-      {
-        "amount": 22627,
-        "date": "24/10/2026"
-      },
-      {
-        "amount": 37061,
-        "date": "25/10/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "26/10/2026"
-      },
-      {
-        "amount": 5989,
-        "date": "27/10/2026"
-      },
-      {
-        "amount": 14514,
-        "date": "28/10/2026"
-      },
-      {
-        "amount": 4858,
-        "date": "29/10/2026"
-      },
-      {
-        "amount": 42994,
-        "date": "30/10/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 13142,
-        "date": "31/10/2026"
-      },
-      {
-        "amount": 7874,
-        "date": "01/11/2026"
-      },
-      {
-        "amount": 1983,
-        "date": "02/11/2026"
-      },
-      {
-        "amount": 18826,
-        "date": "03/11/2026"
-      },
-      {
-        "amount": 20014,
-        "date": "04/11/2026"
-      }
-    ],
-    "monthly_transacts": 13,
-    "address": "House 43, Sample Street, City 34",
-    "contact": "9876500033"
-  },
-  {
-    "username": "user35",
-    "account_number": "ACC1035",
-    "credits": [
-      {
-        "amount": 10322,
-        "date": "12/11/2026"
-      },
-      {
-        "amount": 30100,
-        "date": "13/11/2026"
-      },
-      {
-        "amount": 41582,
-        "date": "14/11/2026"
-      },
-      {
-        "amount": 39925,
-        "date": "15/11/2026"
-      },
-      {
-        "amount": 12046,
-        "date": "16/11/2026"
-      },
-      {
-        "amount": 46398,
-        "date": "17/11/2026"
-      },
-      {
-        "amount": 447377,
-        "date": "2025-11-15"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 13614,
-        "date": "18/11/2026"
-      },
-      {
-        "amount": 28316,
-        "date": "19/11/2026"
-      },
-      {
-        "amount": 33360,
-        "date": "20/11/2026"
-      },
-      {
-        "amount": 31745,
-        "date": "21/11/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "22/11/2026"
-      },
-      {
-        "amount": 28680,
-        "date": "23/11/2026"
-      },
-      {
-        "amount": 35027,
-        "date": "24/11/2026"
-      },
-      {
-        "amount": 33877,
-        "date": "25/11/2026"
-      }
-    ],
-    "monthly_transacts": 14,
-    "address": "House 44, Sample Street, City 35",
-    "contact": "9876500034"
-  },
-  {
-    "username": "user36",
-    "account_number": "ACC1036",
-    "credits": [
-      {
-        "amount": 7420,
-        "date": "02/12/2026"
-      },
-      {
-        "amount": 40173,
-        "date": "03/12/2026"
-      },
-      {
-        "amount": 46472,
-        "date": "04/12/2026"
-      },
-      {
-        "amount": 4959,
-        "date": "05/12/2026"
-      },
-      {
-        "amount": 49464,
-        "date": "06/12/2026"
-      },
-      {
-        "amount": 20135,
-        "date": "07/12/2026"
-      },
-      {
-        "amount": 12681,
-        "date": "08/12/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 17369,
-        "date": "09/12/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "10/12/2026"
-      },
-      {
-        "amount": 35169,
-        "date": "11/12/2026"
-      },
-      {
-        "amount": 5896,
-        "date": "12/12/2026"
-      },
-      {
-        "amount": 10740,
-        "date": "13/12/2026"
-      },
-      {
-        "amount": 2357,
-        "date": "14/12/2026"
-      },
-      {
-        "amount": 24295,
-        "date": "15/12/2026"
-      },
-      {
-        "amount": 33246,
-        "date": "16/12/2026"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 45, Sample Street, City 36",
-    "contact": "9876500035"
-  },
-  {
-    "username": "user37",
-    "account_number": "ACC1037",
-    "credits": [
-      {
-        "amount": 25772,
-        "date": "22/12/2026"
-      },
-      {
-        "amount": 27656,
-        "date": "23/12/2026"
-      },
-      {
-        "amount": 9238,
-        "date": "24/12/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "25/12/2026"
-      },
-      {
-        "amount": 500000,
-        "date": "26/12/2026"
-      },
-      {
-        "amount": 6056,
-        "date": "27/12/2026"
-      },
-      {
-        "amount": 49527,
-        "date": "28/12/2026"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 25505,
-        "date": "29/12/2026"
-      },
-      {
-        "amount": 12404,
-        "date": "30/12/2026"
-      },
-      {
-        "amount": 400000,
-        "date": "31/12/2026"
-      },
-      {
-        "amount": 4338,
-        "date": "01/01/2027"
-      },
-      {
-        "amount": 45983,
-        "date": "02/01/2027"
-      },
-      {
-        "amount": 23953,
-        "date": "03/01/2027"
-      },
-      {
-        "amount": 19488,
-        "date": "04/01/2027"
-      },
-      {
-        "amount": 2543,
-        "date": "05/01/2027"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 46, Sample Street, City 37",
-    "contact": "9876500036"
-  },
-  {
-    "username": "user38",
-    "account_number": "ACC1038",
-    "credits": [
-      {
-        "amount": 300000,
-        "date": "11/01/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "12/01/2027"
-      },
-      {
-        "amount": 4822,
-        "date": "13/01/2027"
-      },
-      {
-        "amount": 3777,
-        "date": "14/01/2027"
-      },
-      {
-        "amount": 35222,
-        "date": "15/01/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 32360,
-        "date": "16/01/2027"
-      },
-      {
-        "amount": 11546,
-        "date": "17/01/2027"
-      },
-      {
-        "amount": 36360,
-        "date": "18/01/2027"
-      },
-      {
-        "amount": 300000,
-        "date": "19/01/2027"
-      },
-      {
-        "amount": 29769,
-        "date": "20/01/2027"
-      },
-      {
-        "amount": 29607,
-        "date": "21/01/2027"
-      },
-      {
-        "amount": 47369,
-        "date": "22/01/2027"
-      },
-      {
-        "amount": 15425,
-        "date": "23/01/2027"
-      }
-    ],
-    "monthly_transacts": 13,
-    "address": "House 47, Sample Street, City 38",
-    "contact": "9876500037"
-  },
-  {
-    "username": "user39",
-    "account_number": "ACC1039",
-    "credits": [
-      {
-        "amount": 21807,
-        "date": "31/01/2027"
-      },
-      {
-        "amount": 7351,
-        "date": "01/02/2027"
-      },
-      {
-        "amount": 30832,
-        "date": "02/02/2027"
-      },
-      {
-        "amount": 38195,
-        "date": "03/02/2027"
-      },
-      {
-        "amount": 40443,
-        "date": "04/02/2027"
-      },
-      {
-        "amount": 37739,
-        "date": "05/02/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "06/02/2027"
-      },
-      {
-        "amount": 13841,
-        "date": "07/02/2027"
-      },
-      {
-        "amount": 47408,
-        "date": "08/02/2027"
-      },
-      {
-        "amount": 28361,
-        "date": "09/02/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 400000,
-        "date": "10/02/2027"
-      },
-      {
-        "amount": 10253,
-        "date": "11/02/2027"
-      },
-      {
-        "amount": 13476,
-        "date": "12/02/2027"
-      },
-      {
-        "amount": 23465,
-        "date": "13/02/2027"
-      },
-      {
-        "amount": 46072,
-        "date": "14/02/2027"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 48, Sample Street, City 39",
-    "contact": "9876500038"
-  },
-  {
-    "username": "user40",
-    "account_number": "ACC1040",
-    "credits": [
-      {
-        "amount": 16655,
-        "date": "20/02/2027"
-      },
-      {
-        "amount": 11442,
-        "date": "21/02/2027"
-      },
-      {
-        "amount": 38774,
-        "date": "22/02/2027"
-      },
-      {
-        "amount": 20267,
-        "date": "23/02/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "24/02/2027"
-      },
-      {
-        "amount": 9136,
-        "date": "25/02/2027"
-      },
-      {
-        "amount": 49843,
-        "date": "26/02/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 39697,
-        "date": "27/02/2027"
-      },
-      {
-        "amount": 2445,
-        "date": "28/02/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "01/03/2027"
-      },
-      {
-        "amount": 44581,
-        "date": "02/03/2027"
-      },
-      {
-        "amount": 400000,
-        "date": "03/03/2027"
-      },
-      {
-        "amount": 693912,
-        "date": "2025-11-15"
-      }
-    ],
-    "monthly_transacts": 12,
-    "address": "House 49, Sample Street, City 40",
-    "contact": "9876500039"
-  },
-  {
-    "username": "user41",
-    "account_number": "ACC1041",
-    "credits": [
-      {
-        "amount": 10942,
-        "date": "12/03/2027"
-      },
-      {
-        "amount": 4169,
-        "date": "13/03/2027"
-      },
-      {
-        "amount": 35836,
-        "date": "14/03/2027"
-      },
-      {
-        "amount": 35434,
-        "date": "15/03/2027"
-      },
-      {
-        "amount": 22390,
-        "date": "16/03/2027"
-      },
-      {
-        "amount": 20634,
-        "date": "17/03/2027"
-      },
-      {
-        "amount": 136455,
-        "date": "2025-11-15"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 22490,
-        "date": "18/03/2027"
-      },
-      {
-        "amount": 12037,
-        "date": "19/03/2027"
-      },
-      {
-        "amount": 16431,
-        "date": "20/03/2027"
-      },
-      {
-        "amount": 41943,
-        "date": "21/03/2027"
-      },
-      {
-        "amount": 16629,
-        "date": "22/03/2027"
-      },
-      {
-        "amount": 33719,
-        "date": "23/03/2027"
-      },
-      {
-        "amount": 39024,
-        "date": "24/03/2027"
-      },
-      {
-        "amount": 400000,
-        "date": "25/03/2027"
-      },
-      {
-        "amount": 19042,
-        "date": "26/03/2027"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 50, Sample Street, City 41",
-    "contact": "9876500040"
-  },
-  {
-    "username": "user42",
-    "account_number": "ACC1042",
-    "credits": [
-      {
-        "amount": 18392,
-        "date": "01/04/2027"
-      },
-      {
-        "amount": 25263,
-        "date": "02/04/2027"
-      },
-      {
-        "amount": 48020,
-        "date": "03/04/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "04/04/2027"
-      },
-      {
-        "amount": 42529,
-        "date": "05/04/2027"
-      },
-      {
-        "amount": 5959,
-        "date": "06/04/2027"
-      },
-      {
-        "amount": 25257,
-        "date": "07/04/2027"
-      },
-      {
-        "amount": 300000,
-        "date": "08/04/2027"
-      },
-      {
-        "amount": 8691,
-        "date": "09/04/2027"
-      },
-      {
-        "amount": 838,
-        "date": "10/04/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 300000,
-        "date": "11/04/2027"
-      },
-      {
-        "amount": 29186,
-        "date": "12/04/2027"
-      },
-      {
-        "amount": 8184,
-        "date": "13/04/2027"
-      },
-      {
-        "amount": 300000,
-        "date": "14/04/2027"
-      },
-      {
-        "amount": 28227,
-        "date": "15/04/2027"
-      },
-      {
-        "amount": 40038,
-        "date": "16/04/2027"
-      },
-      {
-        "amount": 10814,
-        "date": "17/04/2027"
-      },
-      {
-        "amount": 32458,
-        "date": "18/04/2027"
-      }
-    ],
-    "monthly_transacts": 18,
-    "address": "House 51, Sample Street, City 42",
-    "contact": "9876500041"
-  },
-  {
-    "username": "user43",
-    "account_number": "ACC1043",
-    "credits": [
-      {
-        "amount": 19929,
-        "date": "21/04/2027"
-      },
-      {
-        "amount": 9108,
-        "date": "22/04/2027"
-      },
-      {
-        "amount": 35630,
-        "date": "23/04/2027"
-      },
-      {
-        "amount": 28709,
-        "date": "24/04/2027"
-      },
-      {
-        "amount": 28167,
-        "date": "25/04/2027"
-      },
-      {
-        "amount": 41057,
-        "date": "26/04/2027"
-      },
-      {
-        "amount": 400000,
-        "date": "27/04/2027"
-      },
-      {
-        "amount": 34350,
-        "date": "28/04/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 13842,
-        "date": "29/04/2027"
-      },
-      {
-        "amount": 31569,
-        "date": "30/04/2027"
-      },
-      {
-        "amount": 17527,
-        "date": "01/05/2027"
-      },
-      {
-        "amount": 7069,
-        "date": "02/05/2027"
-      },
-      {
-        "amount": 37830,
-        "date": "03/05/2027"
-      },
-      {
-        "amount": 45071,
-        "date": "04/05/2027"
-      },
-      {
-        "amount": 24461,
-        "date": "05/05/2027"
-      },
-      {
-        "amount": 19319,
-        "date": "06/05/2027"
-      },
-      {
-        "amount": 8257,
-        "date": "07/05/2027"
-      }
-    ],
-    "monthly_transacts": 17,
-    "address": "House 52, Sample Street, City 43",
-    "contact": "9876500042"
-  },
-  {
-    "username": "user44",
-    "account_number": "ACC1044",
-    "credits": [
-      {
-        "amount": 29412,
-        "date": "11/05/2027"
-      },
-      {
-        "amount": 300000,
-        "date": "12/05/2027"
-      },
-      {
-        "amount": 400000,
-        "date": "13/05/2027"
-      },
-      {
-        "amount": 17782,
-        "date": "14/05/2027"
-      },
-      {
-        "amount": 17618,
-        "date": "15/05/2027"
-      },
-      {
-        "amount": 39842,
-        "date": "16/05/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "17/05/2027"
-      },
-      {
-        "amount": 17100,
-        "date": "18/05/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 20408,
-        "date": "19/05/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "20/05/2027"
-      },
-      {
-        "amount": 7707,
-        "date": "21/05/2027"
-      },
-      {
-        "amount": 5990,
-        "date": "22/05/2027"
-      },
-      {
-        "amount": 24693,
-        "date": "23/05/2027"
-      },
-      {
-        "amount": 13608,
-        "date": "24/05/2027"
-      },
-      {
-        "amount": 46817,
-        "date": "25/05/2027"
-      },
-      {
-        "amount": 42998,
-        "date": "26/05/2027"
-      },
-      {
-        "amount": 26382,
-        "date": "27/05/2027"
-      },
-      {
-        "amount": 26591,
-        "date": "28/05/2027"
-      },
-      {
-        "amount": 837528,
-        "date": "2025-11-15"
-      }
-    ],
-    "monthly_transacts": 18,
-    "address": "House 53, Sample Street, City 44",
-    "contact": "9876500043"
-  },
-  {
-    "username": "user45",
-    "account_number": "ACC1045",
-    "credits": [
-      {
-        "amount": 49884,
-        "date": "31/05/2027"
-      },
-      {
-        "amount": 44259,
-        "date": "01/06/2027"
-      },
-      {
-        "amount": 8671,
-        "date": "02/06/2027"
-      },
-      {
-        "amount": 38151,
-        "date": "03/06/2027"
-      },
-      {
-        "amount": 21255,
-        "date": "04/06/2027"
-      },
-      {
-        "amount": 37781,
-        "date": "05/06/2027"
-      },
-      {
-        "amount": 300000,
-        "date": "06/06/2027"
-      },
-      {
-        "amount": 23329,
-        "date": "07/06/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "08/06/2027"
-      },
-      {
-        "amount": 15049,
-        "date": "09/06/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 400000,
-        "date": "10/06/2027"
-      },
-      {
-        "amount": 6054,
-        "date": "11/06/2027"
-      },
-      {
-        "amount": 26535,
-        "date": "12/06/2027"
-      },
-      {
-        "amount": 8141,
-        "date": "13/06/2027"
-      },
-      {
-        "amount": 14937,
-        "date": "14/06/2027"
-      },
-      {
-        "amount": 27857,
-        "date": "15/06/2027"
-      },
-      {
-        "amount": 18047,
-        "date": "16/06/2027"
-      },
-      {
-        "amount": 29396,
-        "date": "17/06/2027"
-      }
-    ],
-    "monthly_transacts": 18,
-    "address": "House 54, Sample Street, City 45",
-    "contact": "9876500044"
-  },
-  {
-    "username": "user46",
-    "account_number": "ACC1046",
-    "credits": [
-      {
-        "amount": 1516,
-        "date": "20/06/2027"
-      },
-      {
-        "amount": 30039,
-        "date": "21/06/2027"
-      },
-      {
-        "amount": 21284,
-        "date": "22/06/2027"
-      },
-      {
-        "amount": 18035,
-        "date": "23/06/2027"
-      },
-      {
-        "amount": 31458,
-        "date": "24/06/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 300000,
-        "date": "25/06/2027"
-      },
-      {
-        "amount": 7103,
-        "date": "26/06/2027"
-      },
-      {
-        "amount": 2878,
-        "date": "27/06/2027"
-      },
-      {
-        "amount": 35754,
-        "date": "28/06/2027"
-      },
-      {
-        "amount": 22463,
-        "date": "29/06/2027"
-      }
-    ],
-    "monthly_transacts": 10,
-    "address": "House 55, Sample Street, City 46",
-    "contact": "9876500045"
-  },
-  {
-    "username": "user47",
-    "account_number": "ACC1047",
-    "credits": [
-      {
-        "amount": 9304,
-        "date": "10/07/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "11/07/2027"
-      },
-      {
-        "amount": 20579,
-        "date": "12/07/2027"
-      },
-      {
-        "amount": 27614,
-        "date": "13/07/2027"
-      },
-      {
-        "amount": 21871,
-        "date": "14/07/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "15/07/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 49612,
-        "date": "16/07/2027"
-      },
-      {
-        "amount": 7338,
-        "date": "17/07/2027"
-      },
-      {
-        "amount": 3053,
-        "date": "18/07/2027"
-      },
-      {
-        "amount": 36245,
-        "date": "19/07/2027"
-      },
-      {
-        "amount": 5560,
-        "date": "20/07/2027"
-      },
-      {
-        "amount": 47648,
-        "date": "21/07/2027"
-      },
-      {
-        "amount": 45246,
-        "date": "22/07/2027"
-      },
-      {
-        "amount": 9644,
-        "date": "23/07/2027"
-      },
-      {
-        "amount": 5610,
-        "date": "24/07/2027"
-      }
-    ],
-    "monthly_transacts": 15,
-    "address": "House 56, Sample Street, City 47",
-    "contact": "9876500046"
-  },
-  {
-    "username": "user48",
-    "account_number": "ACC1048",
-    "credits": [
-      {
-        "amount": 669100,
-        "date": "30/07/2027"
-      },
-      {
-        "amount": 4339578,
-        "date": "31/07/2027"
-      },
-      {
-        "amount": 982748,
-        "date": "01/08/2027"
-      },
-      {
-        "amount": 32837,
-        "date": "02/08/2027"
-      },
-      {
-        "amount": 921702,
-        "date": "03/08/2027"
-      },
-      {
-        "amount": 921,
-        "date": "04/08/2027"
-      },
-      {
-        "amount": 44536,
-        "date": "05/08/2027"
-      },
-      {
-        "amount": 4463,
-        "date": "06/08/2027"
-      },
-      {
-        "amount": 871763,
-        "date": "2025-11-15"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 40679,
-        "date": "07/08/2027"
-      },
-      {
-        "amount": 24452,
-        "date": "08/08/2027"
-      },
-      {
-        "amount": 400000,
-        "date": "09/08/2027"
-      },
-      {
-        "amount": 25222,
-        "date": "10/08/2027"
-      },
-      {
-        "amount": 23700,
-        "date": "11/08/2027"
-      },
-      {
-        "amount": 30817,
-        "date": "12/08/2027"
-      },
-      {
-        "amount": 10118,
-        "date": "13/08/2027"
-      },
-      {
-        "amount": 11049,
-        "date": "14/08/2027"
-      },
-      {
-        "amount": 3794,
-        "date": "15/08/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "16/08/2027"
-      }
-    ],
-    "monthly_transacts": 18,
-    "address": "House 57, Sample Street, City 48",
-    "contact": "9876500047"
-  },
-  {
-    "username": "user49",
-    "account_number": "ACC1049",
-    "credits": [
-      {
-        "amount": 13616,
-        "date": "19/08/2027"
-      },
-      {
-        "amount": 300000,
-        "date": "20/08/2027"
-      },
-      {
-        "amount": 1237,
-        "date": "21/08/2027"
-      },
-      {
-        "amount": 15810,
-        "date": "22/08/2027"
-      },
-      {
-        "amount": 30970,
-        "date": "23/08/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 32326,
-        "date": "24/08/2027"
-      },
-      {
-        "amount": 40376,
-        "date": "25/08/2027"
-      },
-      {
-        "amount": 32026,
-        "date": "26/08/2027"
-      },
-      {
-        "amount": 400000,
-        "date": "27/08/2027"
-      },
-      {
-        "amount": 28740,
-        "date": "28/08/2027"
-      }
-    ],
-    "monthly_transacts": 10,
-    "address": "House 58, Sample Street, City 49",
-    "contact": "9876500048"
-  },
-  {
-    "username": "user50",
-    "account_number": "ACC1050",
-    "credits": [
-      {
-        "amount": 400000,
-        "date": "08/09/2027"
-      },
-      {
-        "amount": 1494,
-        "date": "09/09/2027"
-      },
-      {
-        "amount": 26522,
-        "date": "10/09/2027"
-      },
-      {
-        "amount": 500000,
-        "date": "11/09/2027"
-      },
-      {
-        "amount": 36983,
-        "date": "12/09/2027"
-      }
-    ],
-    "debits": [
-      {
-        "amount": 29883,
-        "date": "13/09/2027"
-      },
-      {
-        "amount": 10755,
-        "date": "14/09/2027"
-      },
-      {
-        "amount": 23601,
-        "date": "15/09/2027"
-      },
-      {
-        "amount": 37547,
-        "date": "16/09/2027"
-      },
-      {
-        "amount": 14777,
-        "date": "17/09/2027"
-      },
-      {
-        "amount": 9072,
-        "date": "18/09/2027"
-      },
-      {
-        "amount": 12655,
-        "date": "19/09/2027"
-      }
-    ],
-    "monthly_transacts": 12,
-    "address": "House 59, Sample Street, City 50",
-    "contact": "9876500049"
-  }
+    {
+        "username": "user1",
+        "account_number": "ACC1001",
+        "credits": [
+            {
+                "amount": 14436,
+                "date": "01/01/2025"
+            },
+            {
+                "amount": 18886,
+                "date": "02/01/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "03/01/2025"
+            },
+            {
+                "amount": 2739,
+                "date": "04/01/2025"
+            },
+            {
+                "amount": 9675,
+                "date": "05/01/2025"
+            },
+            {
+                "amount": 36315,
+                "date": "06/01/2025"
+            },
+            {
+                "amount": 32493,
+                "date": "07/01/2025"
+            },
+            {
+                "amount": 13179,
+                "date": "08/01/2025"
+            },
+            {
+                "amount": 29535,
+                "date": "09/01/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 33861,
+                "date": "10/01/2025"
+            },
+            {
+                "amount": 30608,
+                "date": "11/01/2025"
+            },
+            {
+                "amount": 32970,
+                "date": "12/01/2025"
+            },
+            {
+                "amount": 11880,
+                "date": "13/01/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "14/01/2025"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 10, Sample Street, City 1",
+        "contact": "9876500000",
+        "profession": "Laborer",
+        "annual_income": 39255
+    },
+    {
+        "username": "user2",
+        "account_number": "ACC1002",
+        "credits": [
+            {
+                "amount": 8975,
+                "date": "21/01/2025"
+            },
+            {
+                "amount": 12897,
+                "date": "22/01/2025"
+            },
+            {
+                "amount": 46000,
+                "date": "23/01/2025"
+            },
+            {
+                "amount": 8608,
+                "date": "24/01/2025"
+            },
+            {
+                "amount": 9747,
+                "date": "25/01/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 6391,
+                "date": "26/01/2025"
+            },
+            {
+                "amount": 6348,
+                "date": "27/01/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "28/01/2025"
+            },
+            {
+                "amount": 23661,
+                "date": "29/01/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "30/01/2025"
+            }
+        ],
+        "monthly_transacts": 10,
+        "address": "House 11, Sample Street, City 2",
+        "contact": "9876500001",
+        "profession": "Shopkeeper",
+        "annual_income": 533416
+    },
+    {
+        "username": "user3",
+        "account_number": "ACC1003",
+        "credits": [
+            {
+                "amount": 21405,
+                "date": "10/02/2025"
+            },
+            {
+                "amount": 9113,
+                "date": "11/02/2025"
+            },
+            {
+                "amount": 2924,
+                "date": "12/02/2025"
+            },
+            {
+                "amount": 17928,
+                "date": "13/02/2025"
+            },
+            {
+                "amount": 48521,
+                "date": "14/02/2025"
+            },
+            {
+                "amount": 31570,
+                "date": "15/02/2025"
+            },
+            {
+                "amount": 32194,
+                "date": "16/02/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "17/02/2025"
+            },
+            {
+                "amount": 7449,
+                "date": "18/02/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 13997,
+                "date": "19/02/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "20/02/2025"
+            },
+            {
+                "amount": 46273,
+                "date": "21/02/2025"
+            },
+            {
+                "amount": 39053,
+                "date": "22/02/2025"
+            },
+            {
+                "amount": 27357,
+                "date": "23/02/2025"
+            },
+            {
+                "amount": 48919,
+                "date": "24/02/2025"
+            },
+            {
+                "amount": 24651,
+                "date": "25/02/2025"
+            },
+            {
+                "amount": 41547,
+                "date": "26/02/2025"
+            },
+            {
+                "amount": 24353,
+                "date": "27/02/2025"
+            }
+        ],
+        "monthly_transacts": 18,
+        "address": "House 12, Sample Street, City 3",
+        "contact": "9876500002",
+        "profession": "Nurse",
+        "annual_income": 508144
+    },
+    {
+        "username": "user4",
+        "account_number": "ACC1004",
+        "credits": [
+            {
+                "amount": 18342,
+                "date": "02/03/2025"
+            },
+            {
+                "amount": 3312,
+                "date": "03/03/2025"
+            },
+            {
+                "amount": 5229,
+                "date": "04/03/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "05/03/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "06/03/2025"
+            },
+            {
+                "amount": 49580,
+                "date": "07/03/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 19162,
+                "date": "08/03/2025"
+            },
+            {
+                "amount": 45391,
+                "date": "09/03/2025"
+            },
+            {
+                "amount": 29063,
+                "date": "10/03/2025"
+            },
+            {
+                "amount": 16578,
+                "date": "11/03/2025"
+            },
+            {
+                "amount": 34597,
+                "date": "12/03/2025"
+            },
+            {
+                "amount": 25294,
+                "date": "13/03/2025"
+            },
+            {
+                "amount": 26448,
+                "date": "14/03/2025"
+            }
+        ],
+        "monthly_transacts": 13,
+        "address": "House 13, Sample Street, City 4",
+        "contact": "9876500003",
+        "profession": "Graphic Designer",
+        "annual_income": 1075309
+    },
+    {
+        "username": "user5",
+        "account_number": "ACC1005",
+        "credits": [
+            {
+                "amount": 18203,
+                "date": "22/03/2025"
+            },
+            {
+                "amount": 28658,
+                "date": "23/03/2025"
+            },
+            {
+                "amount": 6150,
+                "date": "24/03/2025"
+            },
+            {
+                "amount": 26481,
+                "date": "25/03/2025"
+            },
+            {
+                "amount": 19084,
+                "date": "26/03/2025"
+            },
+            {
+                "amount": 26012,
+                "date": "27/03/2025"
+            },
+            {
+                "amount": 39543,
+                "date": "28/03/2025"
+            },
+            {
+                "amount": 33344,
+                "date": "29/03/2025"
+            },
+            {
+                "amount": 14114,
+                "date": "30/03/2025"
+            },
+            {
+              "amount": 300782,
+                "date": "31/03/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 300000,
+                "date": "31/03/2025"
+            },
+            {
+                "amount": 24721,
+                "date": "01/04/2025"
+            },
+            {
+                "amount": 35000,
+                "date": "02/04/2025"
+            },
+            {
+                "amount": 10709,
+                "date": "03/04/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "04/04/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "05/04/2025"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 14, Sample Street, City 5",
+        "contact": "9876500004",
+        "profession": "Shopkeeper",
+        "annual_income": 613190
+    },
+    {
+        "username": "user6",
+        "account_number": "ACC1006",
+        "credits": [
+            {
+                "amount": 1696,
+                "date": "11/04/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "12/04/2025"
+            },
+            {
+                "amount": 11349,
+                "date": "13/04/2025"
+            },
+            {
+                "amount": 5863,
+                "date": "14/04/2025"
+            },
+            {
+                "amount": 49822,
+                "date": "15/04/2025"
+            },
+            {
+                "amount": 37368,
+                "date": "16/04/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 28749,
+                "date": "17/04/2025"
+            },
+            {
+                "amount": 1814,
+                "date": "18/04/2025"
+            },
+            {
+                "amount": 12925,
+                "date": "19/04/2025"
+            },
+            {
+                "amount": 23876,
+                "date": "20/04/2025"
+            },
+            {
+                "amount": 27484,
+                "date": "21/04/2025"
+            },
+            {
+                "amount": 10211,
+                "date": "22/04/2025"
+            }
+        ],
+        "monthly_transacts": 12,
+        "address": "House 15, Sample Street, City 6",
+        "contact": "9876500005",
+        "profession": "Farmer",
+        "annual_income": 1133750
+    },
+    {
+        "username": "user7",
+        "account_number": "ACC1007",
+        "credits": [
+            {
+                "amount": 1379,
+                "date": "01/05/2025"
+            },
+            {
+                "amount": 25723,
+                "date": "02/05/2025"
+            },
+            {
+                "amount": 3901,
+                "date": "03/05/2025"
+            },
+            {
+                "amount": 17355,
+                "date": "04/05/2025"
+            },
+            {
+                "amount": 6548,
+                "date": "05/05/2025"
+            },
+            {
+                "amount": 33966,
+                "date": "06/05/2025"
+            },
+            {
+                "amount": 3437,
+                "date": "07/05/2025"
+            },
+            {
+                "amount": 49109,
+                "date": "08/05/2025"
+            },
+            {
+                "amount": 17351,
+                "date": "09/05/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 17849,
+                "date": "10/05/2025"
+            },
+            {
+                "amount": 25689,
+                "date": "11/05/2025"
+            },
+            {
+                "amount": 4108,
+                "date": "12/05/2025"
+            },
+            {
+                "amount": 36721,
+                "date": "13/05/2025"
+            },
+            {
+                "amount": 46341,
+                "date": "14/05/2025"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 16, Sample Street, City 7",
+        "contact": "9876500006",
+        "profession": "Lawyer",
+        "annual_income": 888396
+    },
+    {
+        "username": "user8",
+        "account_number": "ACC1008",
+        "credits": [
+            {
+                "amount": 227553,
+                "date": "21/05/2025"
+            },
+            {
+                "amount": 219770,
+                "date": "22/05/2025"
+            },
+            {
+                "amount": 159720,
+                "date": "23/05/2025"
+            },
+            {
+                "amount": 50000,
+                "date": "24/05/2025"
+            },
+            {
+                "amount": 46111,
+                "date": "24/05/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "25/05/2025"
+            },
+            {
+                "amount": 931100,
+                "date": "26/05/2025"
+            },{
+                "amount": 550000,
+                "date": "27/05/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 400000,
+                "date": "27/05/2025"
+            },
+            {
+                "amount": 46969,
+                "date": "28/05/2025"
+            },
+            {
+                "amount": 26954,
+                "date": "29/05/2025"
+            },
+            {
+                "amount": 3044,
+                "date": "30/05/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "31/05/2025"
+            }
+        ],
+        "monthly_transacts": 11,
+        "address": "House 17, Sample Street, City 8",
+        "contact": "9876500007",
+        "profession": "Plumber",
+        "annual_income": 104678
+    },
+    {
+        "username": "user9",
+        "account_number": "ACC1009",
+        "credits": [
+            {
+                "amount": 9089,
+                "date": "10/06/2025"
+            },
+            {
+                "amount": 21333,
+                "date": "11/06/2025"
+            },
+            {
+                "amount": 27982,
+                "date": "12/06/2025"
+            },
+            {
+                "amount": 46820,
+                "date": "13/06/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "14/06/2025"
+            },
+            {
+                "amount": 6513,
+                "date": "15/06/2025"
+            },
+            {
+                "amount": 38349,
+                "date": "16/06/2025"
+            },
+            {
+                "amount": 32909,
+                "date": "17/06/2025"
+            },
+            {
+                "amount": 38021,
+                "date": "18/06/2025"
+            },
+            {
+                "amount": 3051,
+                "date": "19/06/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 500000,
+                "date": "20/06/2025"
+            },
+            {
+                "amount": 24570,
+                "date": "21/06/2025"
+            },
+            {
+                "amount": 48202,
+                "date": "22/06/2025"
+            },
+            {
+                "amount": 44878,
+                "date": "23/06/2025"
+            },
+            {
+                "amount": 38445,
+                "date": "24/06/2025"
+            },
+            {
+                "amount": 17987,
+                "date": "25/06/2025"
+            },
+            {
+                "amount": 32766,
+                "date": "26/06/2025"
+            },
+            {
+                "amount": 25391,
+                "date": "27/06/2025"
+            },
+            {
+                "amount": 4945,
+                "date": "28/06/2025"
+            }
+        ],
+        "monthly_transacts": 19,
+        "address": "House 18, Sample Street, City 9",
+        "contact": "9876500008",
+        "profession": "Business Owner",
+        "annual_income": 1184163
+    },
+    {
+        "username": "user10",
+        "account_number": "ACC1010",
+        "credits": [
+            {
+                "amount": 30105,
+                "date": "30/06/2025"
+            },
+            {
+                "amount": 11464,
+                "date": "01/07/2025"
+            },
+            {
+                "amount": 32023,
+                "date": "02/07/2025"
+            },
+            {
+                "amount": 14162,
+                "date": "03/07/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "04/07/2025"
+            },
+            {
+                "amount": 4048,
+                "date": "05/07/2025"
+            },
+            {
+                "amount": 40100,
+                "date": "06/07/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 1473,
+                "date": "07/07/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "08/07/2025"
+            },
+            {
+                "amount": 5163,
+                "date": "09/07/2025"
+            },
+            {
+                "amount": 33446,
+                "date": "10/07/2025"
+            },
+            {
+                "amount": 17571,
+                "date": "11/07/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "12/07/2025"
+            },
+            {
+                "amount": 30656,
+                "date": "13/07/2025"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 19, Sample Street, City 10",
+        "contact": "9876500009",
+        "profession": "Shopkeeper",
+        "annual_income": 482586
+    },
+    {
+        "username": "user11",
+        "account_number": "ACC1011",
+        "credits": [
+            {
+                "amount": 30312,
+                "date": "20/07/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "21/07/2025"
+            },
+            {
+                "amount": 40015,
+                "date": "22/07/2025"
+            },
+            {
+                "amount": 4521,
+                "date": "23/07/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "24/07/2025"
+            },
+            {
+                "amount": 16825,
+                "date": "25/07/2025"
+            },
+            {
+                "amount": 39984,
+                "date": "26/07/2025"
+            },
+            {
+                "amount": 37789,
+                "date": "27/07/2025"
+            },
+            {
+                "amount": 35434,
+                "date": "28/07/2025"
+            },
+            {
+                "amount": 22686,
+                "date": "29/07/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 49115,
+                "date": "30/07/2025"
+            },
+            {
+                "amount": 28106,
+                "date": "31/07/2025"
+            },
+            {
+                "amount": 31326,
+                "date": "01/08/2025"
+            },
+            {
+                "amount": 22387,
+                "date": "02/08/2025"
+            },
+            {
+                "amount": 6644,
+                "date": "03/08/2025"
+            },
+            {
+                "amount": 25177,
+                "date": "04/08/2025"
+            },
+            {
+                "amount": 11494,
+                "date": "05/08/2025"
+            },
+            {
+                "amount": 49285,
+                "date": "06/08/2025"
+            }
+        ],
+        "monthly_transacts": 18,
+        "address": "House 20, Sample Street, City 11",
+        "contact": "9876500010",
+        "profession": "Doctor",
+        "annual_income": 1019463
+    },
+    {
+        "username": "user12",
+        "account_number": "ACC1012",
+        "credits": [
+            {
+                "amount": 1881,
+                "date": "09/08/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "10/08/2025"
+            },
+            {
+                "amount": 25157,
+                "date": "11/08/2025"
+            },
+            {
+                "amount": 10353,
+                "date": "12/08/2025"
+            },
+            {
+                "amount": 6975,
+                "date": "13/08/2025"
+            },
+            {
+                "amount": 33548,
+                "date": "14/08/2025"
+            },
+            {
+                "amount": 31453,
+                "date": "15/08/2025"
+            },
+            {
+                "amount": 38705,
+                "date": "16/08/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "17/08/2025"
+            },
+            {
+                "amount": 25346,
+                "date": "18/08/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 38675,
+                "date": "19/08/2025"
+            },
+            {
+                "amount": 34071,
+                "date": "20/08/2025"
+            },
+            {
+                "amount": 44569,
+                "date": "21/08/2025"
+            },
+            {
+                "amount": 32407,
+                "date": "22/08/2025"
+            },
+            {
+                "amount": 9755,
+                "date": "23/08/2025"
+            },
+            {
+                "amount": 10523,
+                "date": "24/08/2025"
+            },
+            {
+                "amount": 16047,
+                "date": "25/08/2025"
+            },
+            {
+                "amount": 48771,
+                "date": "26/08/2025"
+            },
+            {
+                "amount": 24677,
+                "date": "27/08/2025"
+            }
+        ],
+        "monthly_transacts": 19,
+        "address": "House 21, Sample Street, City 12",
+        "contact": "9876500011",
+        "profession": "Driver",
+        "annual_income": 619318
+    },
+    {
+        "username": "user13",
+        "account_number": "ACC1013",
+        "credits": [
+            {
+                "amount": 30960,
+                "date": "29/08/2025"
+            },
+            {
+                "amount": 49149,
+                "date": "30/08/2025"
+            },
+            {
+                "amount": 25739,
+                "date": "31/08/2025"
+            },
+            {
+                "amount": 3528,
+                "date": "01/09/2025"
+            },
+            {
+                "amount": 22098,
+                "date": "02/09/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 38518,
+                "date": "03/09/2025"
+            },
+            {
+                "amount": 4843,
+                "date": "04/09/2025"
+            },
+            {
+                "amount": 14991,
+                "date": "05/09/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "06/09/2025"
+            },
+            {
+                "amount": 41598,
+                "date": "07/09/2025"
+            },
+            {
+                "amount": 13104,
+                "date": "08/09/2025"
+            },
+            {
+                "amount": 40016,
+                "date": "09/09/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "10/09/2025"
+            },
+            {
+                "amount": 33440,
+                "date": "11/09/2025"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 22, Sample Street, City 13",
+        "contact": "9876500012",
+        "profession": "Civil Engineer",
+        "annual_income": 1022489
+    },
+    {
+        "username": "user14",
+        "account_number": "ACC1014",
+        "credits": [
+            {
+                "amount": 35136,
+                "date": "18/09/2025"
+            },
+            {
+                "amount": 6666,
+                "date": "19/09/2025"
+            },
+            {
+                "amount": 12884,
+                "date": "20/09/2025"
+            },
+            {
+                "amount": 8368,
+                "date": "21/09/2025"
+            },
+            {
+                "amount": 11949,
+                "date": "22/09/2025"
+            },
+            {
+                "amount": 1976,
+                "date": "23/09/2025"
+            },
+            {
+                "amount": 36404,
+                "date": "24/09/2025"
+            },
+            {
+                "amount": 44845,
+                "date": "25/09/2025"
+            },
+            {
+                "amount": 36477,
+                "date": "26/09/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 20593,
+                "date": "27/09/2025"
+            },
+            {
+                "amount": 29712,
+                "date": "28/09/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "29/09/2025"
+            },
+            {
+                "amount": 33681,
+                "date": "30/09/2025"
+            },
+            {
+                "amount": 14435,
+                "date": "01/10/2025"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 23, Sample Street, City 14",
+        "contact": "9876500013",
+        "profession": "Shopkeeper",
+        "annual_income": 543202
+    },
+    {
+        "username": "user15",
+        "account_number": "ACC1015",
+        "credits": [
+            {
+                "amount": 46098,
+                "date": "08/10/2025"
+            },
+            {
+                "amount": 17981,
+                "date": "09/10/2025"
+            },
+            {
+                "amount": 38005,
+                "date": "10/10/2025"
+            },
+            {
+                "amount": 45892,
+                "date": "11/10/2025"
+            },
+            {
+                "amount": 17543,
+                "date": "12/10/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "13/10/2025"
+            },
+            {
+                "amount": 17184,
+                "date": "14/10/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 500000,
+                "date": "15/10/2025"
+            },
+            {
+                "amount": 16987,
+                "date": "16/10/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "17/10/2025"
+            },
+            {
+                "amount": 27499,
+                "date": "18/10/2025"
+            },
+            {
+                "amount": 37691,
+                "date": "19/10/2025"
+            },
+            {
+                "amount": 47404,
+                "date": "20/10/2025"
+            },
+            {
+                "amount": 400000,
+                "date": "21/10/2025"
+            },
+            {
+                "amount": 1359,
+                "date": "22/10/2025"
+            },
+            {
+                "amount": 44783,
+                "date": "23/10/2025"
+            }
+        ],
+        "monthly_transacts": 16,
+        "address": "House 24, Sample Street, City 15",
+        "contact": "9876500014",
+        "profession": "Farmer",
+        "annual_income": 533133
+    },
+    {
+        "username": "user16",
+        "account_number": "ACC1016",
+        "credits": [
+            {
+                "amount": 300000,
+                "date": "28/10/2025"
+            },
+            {
+                "amount": 41487,
+                "date": "29/10/2025"
+            },
+            {
+                "amount": 31319,
+                "date": "30/10/2025"
+            },
+            {
+                "amount": 10528,
+                "date": "31/10/2025"
+            },
+            {
+                "amount": 17759,
+                "date": "01/11/2025"
+            },
+            {
+                "amount": 7030,
+                "date": "02/11/2025"
+            },
+            {
+                "amount": 34630,
+                "date": "03/11/2025"
+            },
+            {
+                "amount": 35698,
+                "date": "04/11/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 36358,
+                "date": "05/11/2025"
+            },
+            {
+                "amount": 31774,
+                "date": "06/11/2025"
+            },
+            {
+                "amount": 15889,
+                "date": "07/11/2025"
+            },
+            {
+                "amount": 38312,
+                "date": "08/11/2025"
+            },
+            {
+                "amount": 37339,
+                "date": "09/11/2025"
+            },
+            {
+                "amount": 24594,
+                "date": "10/11/2025"
+            },
+            {
+                "amount": 24245,
+                "date": "11/11/2025"
+            },
+            {
+                "amount": 35105,
+                "date": "12/11/2025"
+            },
+            {
+                "amount": 11823,
+                "date": "13/11/2025"
+            },
+            {
+                "amount": 9255,
+                "date": "14/11/2025"
+            }
+        ],
+        "monthly_transacts": 18,
+        "address": "House 25, Sample Street, City 16",
+        "contact": "9876500015",
+        "profession": "Electrician",
+        "annual_income": 740154
+    },
+    {
+        "username": "user17",
+        "account_number": "ACC1017",
+        "credits": [
+            {
+                "amount": 300000,
+                "date": "17/11/2025"
+            },
+            {
+                "amount": 19728,
+                "date": "18/11/2025"
+            },
+            {
+                "amount": 42713,
+                "date": "19/11/2025"
+            },
+            {
+                "amount": 25251,
+                "date": "20/11/2025"
+            },
+            {
+                "amount": 28082,
+                "date": "21/11/2025"
+            },
+            {
+                "amount": 23593,
+                "date": "22/11/2025"
+            },
+            {
+                "amount": 22134,
+                "date": "23/11/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 10476,
+                "date": "24/11/2025"
+            },
+            {
+                "amount": 28961,
+                "date": "25/11/2025"
+            },
+            {
+                "amount": 4763,
+                "date": "26/11/2025"
+            },
+            {
+                "amount": 25479,
+                "date": "27/11/2025"
+            },
+            {
+                "amount": 42414,
+                "date": "28/11/2025"
+            },
+            {
+                "amount": 500000,
+                "date": "29/11/2025"
+            },
+            {
+                "amount": 46309,
+                "date": "30/11/2025"
+            },
+            {
+                "amount": 41816,
+                "date": "01/12/2025"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 26, Sample Street, City 17",
+        "contact": "9876500016",
+        "profession": "Driver",
+        "annual_income": 379978
+    },
+    {
+        "username": "user18",
+        "account_number": "ACC1018",
+        "credits": [
+            {
+                "amount": 29292,
+                "date": "07/12/2025"
+            },
+            {
+                "amount": 47268,
+                "date": "08/12/2025"
+            },
+            {
+                "amount": 39694,
+                "date": "09/12/2025"
+            },
+            {
+                "amount": 1846,
+                "date": "10/12/2025"
+            },
+            {
+                "amount": 49302,
+                "date": "11/12/2025"
+            },
+            {
+                "amount": 48869,
+                "date": "12/12/2025"
+            },
+            {
+                "amount": 30810,
+                "date": "13/12/2025"
+            },
+            {
+                "amount": 24341,
+                "date": "14/12/2025"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 300000,
+                "date": "15/12/2025"
+            },
+            {
+                "amount": 17276,
+                "date": "16/12/2025"
+            },
+            {
+                "amount": 31040,
+                "date": "17/12/2025"
+            },
+            {
+                "amount": 46904,
+                "date": "18/12/2025"
+            },
+            {
+                "amount": 300000,
+                "date": "19/12/2025"
+            }
+        ],
+        "monthly_transacts": 13,
+        "address": "House 27, Sample Street, City 18",
+        "contact": "9876500017",
+        "profession": "Shopkeeper",
+        "annual_income": 541394
+    },
+    {
+        "username": "user19",
+        "account_number": "ACC1019",
+        "credits": [
+            {
+                "amount": 22719,
+                "date": "27/12/2025"
+            },
+            {
+                "amount": 27368,
+                "date": "28/12/2025"
+            },
+            {
+                "amount": 34041,
+                "date": "29/12/2025"
+            },
+            {
+                "amount": 19078,
+                "date": "30/12/2025"
+            },
+            {
+                "amount": 40197,
+                "date": "31/12/2025"
+            },
+            {
+                "amount": 27763,
+                "date": "01/01/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "02/01/2026"
+            },
+            {
+                "amount": 40846,
+                "date": "03/01/2026"
+            },
+            {
+                "amount": 40008,
+                "date": "04/01/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 22009,
+                "date": "05/01/2026"
+            },
+            {
+                "amount": 3893,
+                "date": "06/01/2026"
+            },
+            {
+                "amount": 38606,
+                "date": "07/01/2026"
+            },
+            {
+                "amount": 33146,
+                "date": "08/01/2026"
+            },
+            {
+                "amount": 24749,
+                "date": "09/01/2026"
+            },
+            {
+                "amount": 37450,
+                "date": "10/01/2026"
+            },
+            {
+                "amount": 15603,
+                "date": "11/01/2026"
+            },
+            {
+                "amount": 32124,
+                "date": "12/01/2026"
+            }
+        ],
+        "monthly_transacts": 17,
+        "address": "House 28, Sample Street, City 19",
+        "contact": "9876500018",
+        "profession": "Teacher",
+        "annual_income": 586972
+    },
+    {
+        "username": "user20",
+        "account_number": "ACC1020",
+        "credits": [
+            {
+                "amount": 7587,
+                "date": "16/01/2026"
+            },
+            {
+                "amount": 46335,
+                "date": "17/01/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "18/01/2026"
+            },
+            {
+                "amount": 33193,
+                "date": "19/01/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "20/01/2026"
+            },
+            {
+                "amount": 18254,
+                "date": "21/01/2026"
+            },
+            {
+                "amount": 43816,
+                "date": "22/01/2026"
+            },
+            {
+                "amount": 46621,
+                "date": "23/01/2026"
+            },
+            {
+                "amount": 40392,
+                "date": "24/01/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 36789,
+                "date": "25/01/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "26/01/2026"
+            },
+            {
+                "amount": 9249,
+                "date": "27/01/2026"
+            },
+            {
+                "amount": 32406,
+                "date": "28/01/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "29/01/2026"
+            },
+            {
+                "amount": 45384,
+                "date": "30/01/2026"
+            },
+            {
+                "amount": 15095,
+                "date": "31/01/2026"
+            },
+            {
+                "amount": 29848,
+                "date": "01/02/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "02/02/2026"
+            }
+        ],
+        "monthly_transacts": 18,
+        "address": "House 29, Sample Street, City 20",
+        "contact": "9876500019",
+        "profession": "Chef",
+        "annual_income": 318365
+    },
+    {
+        "username": "user21",
+        "account_number": "ACC1021",
+        "credits": [
+            {
+                "amount": 46861,
+                "date": "05/02/2026"
+            },
+            {
+                "amount": 9618,
+                "date": "06/02/2026"
+            },
+            {
+                "amount": 35791,
+                "date": "07/02/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "08/02/2026"
+            },
+            {
+                "amount": 25368,
+                "date": "09/02/2026"
+            },
+            {
+                "amount": 28610,
+                "date": "10/02/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 7939,
+                "date": "11/02/2026"
+            },
+            {
+                "amount": 15774,
+                "date": "12/02/2026"
+            },
+            {
+                "amount": 28287,
+                "date": "13/02/2026"
+            },
+            {
+                "amount": 32839,
+                "date": "14/02/2026"
+            },
+            {
+                "amount": 5834,
+                "date": "15/02/2026"
+            },
+            {
+                "amount": 39581,
+                "date": "16/02/2026"
+            },
+            {
+                "amount": 46831,
+                "date": "17/02/2026"
+            }
+        ],
+        "monthly_transacts": 13,
+        "address": "House 30, Sample Street, City 21",
+        "contact": "9876500020",
+        "profession": "Driver",
+        "annual_income": 691076
+    },
+    {
+        "username": "user22",
+        "account_number": "ACC1022",
+        "credits": [
+            {
+                "amount": 29843,
+                "date": "25/02/2026"
+            },
+            {
+                "amount": 27267,
+                "date": "26/02/2026"
+            },
+            {
+                "amount": 583,
+                "date": "27/02/2026"
+            },
+            {
+                "amount": 48269,
+                "date": "28/02/2026"
+            },
+            {
+                "amount": 9939,
+                "date": "01/03/2026"
+            },
+            {
+                "amount": 37867,
+                "date": "02/03/2026"
+            },
+            {
+                "amount": 36448,
+                "date": "03/03/2026"
+            },
+            {
+                "amount": 13664,
+                "date": "04/03/2026"
+            },
+            {
+                "amount": 2898,
+                "date": "05/03/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 29935,
+                "date": "06/03/2026"
+            },
+            {
+                "amount": 17813,
+                "date": "07/03/2026"
+            },
+            {
+                "amount": 16683,
+                "date": "08/03/2026"
+            },
+            {
+                "amount": 20243,
+                "date": "09/03/2026"
+            },
+            {
+                "amount": 49607,
+                "date": "10/03/2026"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 31, Sample Street, City 22",
+        "contact": "9876500021",
+        "profession": "Mechanical Engineer",
+        "annual_income": 887646
+    },
+    {
+        "username": "user23",
+        "account_number": "ACC1023",
+        "credits": [
+            {
+                "amount": 18987,
+                "date": "17/03/2026"
+            },
+            {
+                "amount": 25748,
+                "date": "18/03/2026"
+            },
+            {
+                "amount": 36940,
+                "date": "19/03/2026"
+            },
+            {
+                "amount": 44337,
+                "date": "20/03/2026"
+            },
+            {
+                "amount": 35882,
+                "date": "21/03/2026"
+            },
+            {
+                "amount": 1147,
+                "date": "22/03/2026"
+            },
+            {
+                "amount": 20497,
+                "date": "23/03/2026"
+            },
+            {
+                "amount": 46451,
+                "date": "24/03/2026"
+            },
+            {
+                "amount": 33759,
+                "date": "25/03/2026"
+            },
+            {
+                "amount": 34096,
+                "date": "26/03/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 18830,
+                "date": "27/03/2026"
+            },
+            {
+                "amount": 49124,
+                "date": "28/03/2026"
+            },
+            {
+                "amount": 34285,
+                "date": "29/03/2026"
+            },
+            {
+                "amount": 29418,
+                "date": "30/03/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "31/03/2026"
+            },
+            {
+                "amount": 20935,
+                "date": "01/04/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "02/04/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "03/04/2026"
+            },
+            {
+                "amount": 5357,
+                "date": "04/04/2026"
+            }
+        ],
+        "monthly_transacts": 19,
+        "address": "House 32, Sample Street, City 23",
+        "contact": "9876500022",
+        "profession": "Business Owner",
+        "annual_income": 600114
+    },
+    {
+        "username": "user24",
+        "account_number": "ACC1024",
+        "credits": [
+            {
+                "amount": 25109,
+                "date": "06/04/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "07/04/2026"
+            },
+            {
+                "amount": 45036,
+                "date": "08/04/2026"
+            },
+            {
+                "amount": 1699,
+                "date": "09/04/2026"
+            },
+            {
+                "amount": 25157,
+                "date": "10/04/2026"
+            },
+            {
+                "amount": 10358,
+                "date": "11/04/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 500000,
+                "date": "12/04/2026"
+            },
+            {
+                "amount": 26195,
+                "date": "13/04/2026"
+            },
+            {
+                "amount": 21138,
+                "date": "14/04/2026"
+            },
+            {
+                "amount": 49438,
+                "date": "15/04/2026"
+            },
+            {
+                "amount": 24342,
+                "date": "16/04/2026"
+            },
+            {
+                "amount": 23302,
+                "date": "17/04/2026"
+            },
+            {
+                "amount": 47426,
+                "date": "18/04/2026"
+            },
+            {
+                "amount": 13862,
+                "date": "19/04/2026"
+            },
+            {
+                "amount": 21465,
+                "date": "20/04/2026"
+            },
+            {
+                "amount": 19003,
+                "date": "21/04/2026"
+            }
+        ],
+        "monthly_transacts": 16,
+        "address": "House 33, Sample Street, City 24",
+        "contact": "9876500023",
+        "profession": "Teacher",
+        "annual_income": 320950
+    },
+    {
+        "username": "user25",
+        "account_number": "ACC1025",
+        "credits": [
+            {
+                "amount": 32677,
+                "date": "26/04/2026"
+            },
+            {
+                "amount": 21871,
+                "date": "27/04/2026"
+            },
+            {
+                "amount": 18133,
+                "date": "28/04/2026"
+            },
+            {
+                "amount": 19605,
+                "date": "29/04/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "30/04/2026"
+            },
+            {
+                "amount": 28569,
+                "date": "01/05/2026"
+            },
+            {
+                "amount": 14963,
+                "date": "02/05/2026"
+            },
+            {
+                "amount": 41113,
+                "date": "03/05/2026"
+            },
+            {
+                "amount": 30513,
+                "date": "04/05/2026"
+            },
+            {
+                "amount": 46750,
+                "date": "05/05/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 500000,
+                "date": "06/05/2026"
+            },
+            {
+                "amount": 9791,
+                "date": "07/05/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "08/05/2026"
+            },
+            {
+                "amount": 3444,
+                "date": "09/05/2026"
+            },
+            {
+                "amount": 40424,
+                "date": "10/05/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "11/05/2026"
+            },
+            {
+                "amount": 47058,
+                "date": "12/05/2026"
+            },
+            {
+                "amount": 34643,
+                "date": "13/05/2026"
+            },
+            {
+                "amount": 49770,
+                "date": "14/05/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "15/05/2026"
+            }
+        ],
+        "monthly_transacts": 20,
+        "address": "House 34, Sample Street, City 25",
+        "contact": "9876500024",
+        "profession": "Business Owner",
+        "annual_income": 617622
+    },
+    {
+        "username": "user26",
+        "account_number": "ACC1026",
+        "credits": [
+            {
+                "amount": 43262,
+                "date": "16/05/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "17/05/2026"
+            },
+            {
+                "amount": 46887,
+                "date": "18/05/2026"
+            },
+            {
+                "amount": 12073,
+                "date": "19/05/2026"
+            },
+            {
+                "amount": 40677,
+                "date": "20/05/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 20468,
+                "date": "21/05/2026"
+            },
+            {
+                "amount": 29126,
+                "date": "22/05/2026"
+            },
+            {
+                "amount": 4380,
+                "date": "23/05/2026"
+            },
+            {
+                "amount": 37671,
+                "date": "24/05/2026"
+            },
+            {
+                "amount": 15975,
+                "date": "25/05/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "26/05/2026"
+            },
+            {
+                "amount": 43890,
+                "date": "27/05/2026"
+            },
+            {
+                "amount": 26084,
+                "date": "28/05/2026"
+            },
+            {
+                "amount": 39795,
+                "date": "29/05/2026"
+            },
+            {
+                "amount": 21347,
+                "date": "30/05/2026"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 35, Sample Street, City 26",
+        "contact": "9876500025",
+        "profession": "Business Owner",
+        "annual_income": 1177834
+    },
+    {
+        "username": "user27",
+        "account_number": "ACC1027",
+        "credits": [
+            {
+                "amount": 9526,
+                "date": "05/06/2026"
+            },
+            {
+                "amount": 19560,
+                "date": "06/06/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "07/06/2026"
+            },
+            {
+                "amount": 45724,
+                "date": "08/06/2026"
+            },
+            {
+                "amount": 30213,
+                "date": "09/06/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 10367,
+                "date": "10/06/2026"
+            },
+            {
+                "amount": 17287,
+                "date": "11/06/2026"
+            },
+            {
+                "amount": 21900,
+                "date": "12/06/2026"
+            },
+            {
+                "amount": 17252,
+                "date": "13/06/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "14/06/2026"
+            },
+            {
+                "amount": 31888,
+                "date": "15/06/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "16/06/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "17/06/2026"
+            }
+        ],
+        "monthly_transacts": 13,
+        "address": "House 36, Sample Street, City 27",
+        "contact": "9876500026",
+        "profession": "Police Officer",
+        "annual_income": 423605
+    },
+    {
+        "username": "user28",
+        "account_number": "ACC1028",
+        "credits": [
+            {
+                "amount": 13794,
+                "date": "25/06/2026"
+            },
+            {
+                "amount": 1208,
+                "date": "26/06/2026"
+            },
+            {
+                "amount": 4131,
+                "date": "27/06/2026"
+            },
+            {
+                "amount": 44068,
+                "date": "28/06/2026"
+            },
+            {
+                "amount": 13106,
+                "date": "29/06/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 40719,
+                "date": "30/06/2026"
+            },
+            {
+                "amount": 32566,
+                "date": "01/07/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "02/07/2026"
+            },
+            {
+                "amount": 45287,
+                "date": "03/07/2026"
+            },
+            {
+                "amount": 21660,
+                "date": "04/07/2026"
+            },
+            {
+                "amount": 39229,
+                "date": "05/07/2026"
+            },
+            {
+                "amount": 21734,
+                "date": "06/07/2026"
+            }
+        ],
+        "monthly_transacts": 12,
+        "address": "House 37, Sample Street, City 28",
+        "contact": "9876500027",
+        "profession": "Bank Manager",
+        "annual_income": 1127814
+    },
+    {
+        "username": "user29",
+        "account_number": "ACC1029",
+        "credits": [
+            {
+                "amount": 9025,
+                "date": "15/07/2026"
+            },
+            {
+                "amount": 17173,
+                "date": "16/07/2026"
+            },
+            {
+                "amount": 49094,
+                "date": "17/07/2026"
+            },
+            {
+                "amount": 1586,
+                "date": "18/07/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "19/07/2026"
+            },
+            {
+                "amount": 3589,
+                "date": "20/07/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 500000,
+                "date": "21/07/2026"
+            },
+            {
+                "amount": 38688,
+                "date": "22/07/2026"
+            },
+            {
+                "amount": 1677,
+                "date": "23/07/2026"
+            },
+            {
+                "amount": 40003,
+                "date": "24/07/2026"
+            },
+            {
+                "amount": 2183,
+                "date": "25/07/2026"
+            },
+            {
+                "amount": 36538,
+                "date": "26/07/2026"
+            }
+        ],
+        "monthly_transacts": 12,
+        "address": "House 38, Sample Street, City 29",
+        "contact": "9876500028",
+        "profession": "Doctor",
+        "annual_income": 969257
+    },
+    {
+        "username": "user30",
+        "account_number": "ACC1030",
+        "credits": [
+            {
+                "amount": 40179,
+                "date": "04/08/2026"
+            },
+            {
+                "amount": 7566,
+                "date": "05/08/2026"
+            },
+            {
+                "amount": 10175,
+                "date": "06/08/2026"
+            },
+            {
+                "amount": 847,
+                "date": "07/08/2026"
+            },
+            {
+                "amount": 14079,
+                "date": "08/08/2026"
+            },
+            {
+                "amount": 710,
+                "date": "09/08/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "10/08/2026"
+            },
+            {
+                "amount": 10729,
+                "date": "11/08/2026"
+            },
+            {
+                "amount": 26988,
+                "date": "12/08/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 21061,
+                "date": "13/08/2026"
+            },
+            {
+                "amount": 13626,
+                "date": "14/08/2026"
+            },
+            {
+                "amount": 1019,
+                "date": "15/08/2026"
+            },
+            {
+                "amount": 19882,
+                "date": "16/08/2026"
+            },
+            {
+                "amount": 47591,
+                "date": "17/08/2026"
+            },
+            {
+                "amount": 39054,
+                "date": "18/08/2026"
+            },
+            {
+                "amount": 48091,
+                "date": "19/08/2026"
+            }
+        ],
+        "monthly_transacts": 16,
+        "address": "House 39, Sample Street, City 30",
+        "contact": "9876500029",
+        "profession": "Graphic Designer",
+        "annual_income": 1107478
+    },
+    {
+        "username": "user31",
+        "account_number": "ACC1031",
+        "credits": [
+            {
+                "amount": 40484,
+                "date": "24/08/2026"
+            },
+            {
+                "amount": 31737,
+                "date": "25/08/2026"
+            },
+            {
+                "amount": 26219,
+                "date": "26/08/2026"
+            },
+            {
+                "amount": 8871,
+                "date": "27/08/2026"
+            },
+            {
+                "amount": 3655,
+                "date": "28/08/2026"
+            },
+            {
+                "amount": 8007,
+                "date": "29/08/2026"
+            },
+            {
+                "amount": 24362,
+                "date": "30/08/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "31/08/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 22623,
+                "date": "01/09/2026"
+            },
+            {
+                "amount": 26397,
+                "date": "02/09/2026"
+            },
+            {
+                "amount": 13433,
+                "date": "03/09/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "04/09/2026"
+            },
+            {
+                "amount": 7556,
+                "date": "05/09/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "06/09/2026"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 40, Sample Street, City 31",
+        "contact": "9876500030",
+        "profession": "Lawyer",
+        "annual_income": 1156530
+    },
+    {
+        "username": "user32",
+        "account_number": "ACC1032",
+        "credits": [
+            {
+                "amount": 500000,
+                "date": "13/09/2026"
+            },
+            {
+                "amount": 32335,
+                "date": "14/09/2026"
+            },
+            {
+                "amount": 19372,
+                "date": "15/09/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "16/09/2026"
+            },
+            {
+                "amount": 15206,
+                "date": "17/09/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 15081,
+                "date": "18/09/2026"
+            },
+            {
+                "amount": 12752,
+                "date": "19/09/2026"
+            },
+            {
+                "amount": 45485,
+                "date": "20/09/2026"
+            },
+            {
+                "amount": 300000,
+                "date": "21/09/2026"
+            },
+            {
+                "amount": 3637,
+                "date": "22/09/2026"
+            }
+        ],
+        "monthly_transacts": 10,
+        "address": "House 41, Sample Street, City 32",
+        "contact": "9876500031",
+        "profession": "Business Owner",
+        "annual_income": 578763
+    },
+    {
+        "username": "user33",
+        "account_number": "ACC1033",
+        "credits": [
+            {
+                "amount": 43401,
+                "date": "03/10/2026"
+            },
+            {
+                "amount": 16035,
+                "date": "04/10/2026"
+            },
+            {
+                "amount": 46737,
+                "date": "05/10/2026"
+            },
+            {
+                "amount": 41591,
+                "date": "06/10/2026"
+            },
+            {
+                "amount": 41739,
+                "date": "07/10/2026"
+            },
+            {
+                "amount": 36502,
+                "date": "08/10/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "09/10/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 26085,
+                "date": "10/10/2026"
+            },
+            {
+                "amount": 30812,
+                "date": "11/10/2026"
+            },
+            {
+                "amount": 14895,
+                "date": "12/10/2026"
+            },
+            {
+                "amount": 49196,
+                "date": "13/10/2026"
+            },
+            {
+                "amount": 19076,
+                "date": "14/10/2026"
+            }
+        ],
+        "monthly_transacts": 12,
+        "address": "House 42, Sample Street, City 33",
+        "contact": "9876500032",
+        "profession": "Mechanical Engineer",
+        "annual_income": 793411
+    },
+    {
+        "username": "user34",
+        "account_number": "ACC1034",
+        "credits": [
+            {
+                "amount": 4051,
+                "date": "23/10/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "24/10/2026"
+            },
+            {
+                "amount": 21803,
+                "date": "25/10/2026"
+            },
+            {
+                "amount": 12923,
+                "date": "26/10/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "27/10/2026"
+            },
+            {
+                "amount": 556,
+                "date": "28/10/2026"
+            },
+            {
+                "amount": 30724,
+                "date": "29/10/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 41838,
+                "date": "30/10/2026"
+            },
+            {
+                "amount": 39775,
+                "date": "31/10/2026"
+            },
+            {
+                "amount": 20493,
+                "date": "01/11/2026"
+            },
+            {
+                "amount": 10143,
+                "date": "02/11/2026"
+            },
+            {
+                "amount": 12658,
+                "date": "03/11/2026"
+            },
+            {
+                "amount": 48241,
+                "date": "04/11/2026"
+            },
+            {
+                "amount": 8930,
+                "date": "05/11/2026"
+            },
+            {
+                "amount": 37762,
+                "date": "06/11/2026"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 43, Sample Street, City 34",
+        "contact": "9876500033",
+        "profession": "Architect",
+        "annual_income": 1729857
+    },
+    {
+        "username": "user35",
+        "account_number": "ACC1035",
+        "credits": [
+            {
+                "amount": 5480,
+                "date": "12/11/2026"
+            },
+            {
+                "amount": 41752,
+                "date": "13/11/2026"
+            },
+            {
+                "amount": 24150,
+                "date": "14/11/2026"
+            },
+            {
+                "amount": 11778,
+                "date": "15/11/2026"
+            },
+            {
+                "amount": 24493,
+                "date": "16/11/2026"
+            },
+            {
+                "amount": 48978,
+                "date": "17/11/2026"
+            },
+            {
+                "amount": 42368,
+                "date": "18/11/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "19/11/2026"
+            },
+            {
+                "amount": 26788,
+                "date": "20/11/2026"
+            },
+            {
+                "amount": 36043,
+                "date": "21/11/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 37523,
+                "date": "22/11/2026"
+            },
+            {
+                "amount": 4130,
+                "date": "23/11/2026"
+            },
+            {
+                "amount": 33104,
+                "date": "24/11/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "25/11/2026"
+            },
+            {
+                "amount": 30143,
+                "date": "26/11/2026"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 44, Sample Street, City 35",
+        "contact": "9876500034",
+        "profession": "Architect",
+        "annual_income": 1036479
+    },
+    {
+        "username": "user36",
+        "account_number": "ACC1036",
+        "credits": [
+            {
+                "amount": 4139,
+                "date": "02/12/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "03/12/2026"
+            },
+            {
+                "amount": 39696,
+                "date": "04/12/2026"
+            },
+            {
+                "amount": 43011,
+                "date": "05/12/2026"
+            },
+            {
+                "amount": 9083,
+                "date": "06/12/2026"
+            },
+            {
+                "amount": 21266,
+                "date": "07/12/2026"
+            },
+            {
+                "amount": 1181,
+                "date": "08/12/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 41002,
+                "date": "09/12/2026"
+            },
+            {
+                "amount": 21931,
+                "date": "10/12/2026"
+            },
+            {
+                "amount": 31079,
+                "date": "11/12/2026"
+            },
+            {
+                "amount": 40334,
+                "date": "12/12/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "13/12/2026"
+            },
+            {
+                "amount": 37731,
+                "date": "14/12/2026"
+            },
+            {
+                "amount": 400000,
+                "date": "15/12/2026"
+            },
+            {
+                "amount": 46161,
+                "date": "16/12/2026"
+            },
+            {
+                "amount": 10145,
+                "date": "17/12/2026"
+            }
+        ],
+        "monthly_transacts": 16,
+        "address": "House 45, Sample Street, City 36",
+        "contact": "9876500035",
+        "profession": "Architect",
+        "annual_income": 1434443
+    },
+    {
+        "username": "user37",
+        "account_number": "ACC1037",
+        "credits": [
+            {
+                "amount": 44869,
+                "date": "22/12/2026"
+            },
+            {
+                "amount": 500000,
+                "date": "23/12/2026"
+            },
+            {
+                "amount": 45750,
+                "date": "24/12/2026"
+            },
+            {
+                "amount": 28893,
+                "date": "25/12/2026"
+            },
+            {
+                "amount": 12170,
+                "date": "26/12/2026"
+            },
+            {
+                "amount": 20734,
+                "date": "27/12/2026"
+            },
+            {
+                "amount": 29978,
+                "date": "28/12/2026"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 12064,
+                "date": "29/12/2026"
+            },
+            {
+                "amount": 39293,
+                "date": "30/12/2026"
+            },
+            {
+                "amount": 32057,
+                "date": "31/12/2026"
+            },
+            {
+                "amount": 34399,
+                "date": "01/01/2027"
+            },
+            {
+                "amount": 17345,
+                "date": "02/01/2027"
+            }
+        ],
+        "monthly_transacts": 12,
+        "address": "House 46, Sample Street, City 37",
+        "contact": "9876500036",
+        "profession": "Architect",
+        "annual_income": 1015582
+    },
+    {
+        "username": "user38",
+        "account_number": "ACC1038",
+        "credits": [
+            {
+                "amount": 500000,
+                "date": "11/01/2027"
+            },
+            {
+                "amount": 8455,
+                "date": "12/01/2027"
+            },
+            {
+                "amount": 26528,
+                "date": "13/01/2027"
+            },
+            {
+                "amount": 46422,
+                "date": "14/01/2027"
+            },
+            {
+                "amount": 29582,
+                "date": "15/01/2027"
+            },
+            {
+                "amount": 16673,
+                "date": "16/01/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 914,
+                "date": "17/01/2027"
+            },
+            {
+                "amount": 42279,
+                "date": "18/01/2027"
+            },
+            {
+                "amount": 30952,
+                "date": "19/01/2027"
+            },
+            {
+                "amount": 22545,
+                "date": "20/01/2027"
+            },
+            {
+                "amount": 49478,
+                "date": "21/01/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "22/01/2027"
+            }
+        ],
+        "monthly_transacts": 12,
+        "address": "House 47, Sample Street, City 38",
+        "contact": "9876500037",
+        "profession": "Architect",
+        "annual_income": 1022042
+    },
+    {
+        "username": "user39",
+        "account_number": "ACC1039",
+        "credits": [
+            {
+                "amount": 37398,
+                "date": "31/01/2027"
+            },
+            {
+                "amount": 46078,
+                "date": "01/02/2027"
+            },
+            {
+                "amount": 21335,
+                "date": "02/02/2027"
+            },
+            {
+                "amount": 2958,
+                "date": "03/02/2027"
+            },
+            {
+                "amount": 23915,
+                "date": "04/02/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "05/02/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 27618,
+                "date": "06/02/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "07/02/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "08/02/2027"
+            },
+            {
+                "amount": 5102,
+                "date": "09/02/2027"
+            },
+            {
+                "amount": 42754,
+                "date": "10/02/2027"
+            },
+            {
+                "amount": 18473,
+                "date": "11/02/2027"
+            },
+            {
+                "amount": 39804,
+                "date": "12/02/2027"
+            },
+            {
+                "amount": 47673,
+                "date": "13/02/2027"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 48, Sample Street, City 39",
+        "contact": "9876500038",
+        "profession": "Police Officer",
+        "annual_income": 846379
+    },
+    {
+        "username": "user40",
+        "account_number": "ACC1040",
+        "credits": [
+            {
+                "amount": 300000,
+                "date": "20/02/2027"
+            },
+            {
+                "amount": 24655,
+                "date": "21/02/2027"
+            },
+            {
+                "amount": 2934,
+                "date": "22/02/2027"
+            },
+            {
+                "amount": 46312,
+                "date": "23/02/2027"
+            },
+            {
+                "amount": 10539,
+                "date": "24/02/2027"
+            },
+            {
+                "amount": 27186,
+                "date": "25/02/2027"
+            },
+            {
+                "amount": 18488,
+                "date": "26/02/2027"
+            },
+            {
+                "amount": 26741,
+                "date": "27/02/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 17854,
+                "date": "28/02/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "01/03/2027"
+            },
+            {
+                "amount": 39609,
+                "date": "02/03/2027"
+            },
+            {
+                "amount": 2309,
+                "date": "03/03/2027"
+            },
+            {
+                "amount": 37326,
+                "date": "04/03/2027"
+            }
+        ],
+        "monthly_transacts": 13,
+        "address": "House 49, Sample Street, City 40",
+        "contact": "9876500039",
+        "profession": "Mechanical Engineer",
+        "annual_income": 534857
+    },
+    {
+        "username": "user41",
+        "account_number": "ACC1041",
+        "credits": [
+            {
+                "amount": 33826,
+                "date": "12/03/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "13/03/2027"
+            },
+            {
+                "amount": 36366,
+                "date": "14/03/2027"
+            },
+            {
+                "amount": 27529,
+                "date": "15/03/2027"
+            },
+            {
+                "amount": 27355,
+                "date": "16/03/2027"
+            },
+            {
+                "amount": 3118,
+                "date": "17/03/2027"
+            },
+            {
+                "amount": 34451,
+                "date": "18/03/2027"
+            },
+            {
+                "amount": 42605,
+                "date": "19/03/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 43694,
+                "date": "20/03/2027"
+            },
+            {
+                "amount": 8645,
+                "date": "21/03/2027"
+            },
+            {
+                "amount": 34521,
+                "date": "22/03/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "23/03/2027"
+            },
+            {
+                "amount": 13995,
+                "date": "24/03/2027"
+            },
+            {
+                "amount": 11459,
+                "date": "25/03/2027"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 50, Sample Street, City 41",
+        "contact": "9876500040",
+        "profession": "Business Owner",
+        "annual_income": 450956
+    },
+    {
+        "username": "user42",
+        "account_number": "ACC1042",
+        "credits": [
+            {
+                "amount": 19733,
+                "date": "01/04/2027"
+            },
+            {
+                "amount": 12815,
+                "date": "02/04/2027"
+            },
+            {
+                "amount": 28707,
+                "date": "03/04/2027"
+            },
+            {
+                "amount": 24275,
+                "date": "04/04/2027"
+            },
+            {
+                "amount": 48223,
+                "date": "05/04/2027"
+            },
+            {
+                "amount": 5337,
+                "date": "06/04/2027"
+            },
+            {
+                "amount": 300000,
+                "date": "07/04/2027"
+            },
+            {
+                "amount": 34071,
+                "date": "08/04/2027"
+            },
+            {
+                "amount": 38104,
+                "date": "09/04/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 500000,
+                "date": "10/04/2027"
+            },
+            {
+                "amount": 8071,
+                "date": "11/04/2027"
+            },
+            {
+                "amount": 42813,
+                "date": "12/04/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "13/04/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "14/04/2027"
+            },
+            {
+                "amount": 22568,
+                "date": "15/04/2027"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 51, Sample Street, City 42",
+        "contact": "9876500041",
+        "profession": "Teacher",
+        "annual_income": 639750
+    },
+    {
+        "username": "user43",
+        "account_number": "ACC1043",
+        "credits": [
+            {
+                "amount": 14087,
+                "date": "21/04/2027"
+            },
+            {
+                "amount": 49001,
+                "date": "22/04/2027"
+            },
+            {
+                "amount": 15885,
+                "date": "23/04/2027"
+            },
+            {
+                "amount": 45658,
+                "date": "24/04/2027"
+            },
+            {
+                "amount": 786,
+                "date": "25/04/2027"
+            },
+            {
+                "amount": 21959,
+                "date": "26/04/2027"
+            },
+            {
+                "amount": 44187,
+                "date": "27/04/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 8589,
+                "date": "28/04/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "29/04/2027"
+            },
+            {
+                "amount": 40522,
+                "date": "30/04/2027"
+            },
+            {
+                "amount": 20330,
+                "date": "01/05/2027"
+            },
+            {
+                "amount": 23626,
+                "date": "02/05/2027"
+            },
+            {
+                "amount": 4578,
+                "date": "03/05/2027"
+            }
+        ],
+        "monthly_transacts": 13,
+        "address": "House 52, Sample Street, City 43",
+        "contact": "9876500042",
+        "profession": "Driver",
+        "annual_income": 696738
+    },
+    {
+        "username": "user44",
+        "account_number": "ACC1044",
+        "credits": [
+            {
+                "amount": 30629,
+                "date": "11/05/2027"
+            },
+            {
+                "amount": 16063,
+                "date": "12/05/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "13/05/2027"
+            },
+            {
+                "amount": 39372,
+                "date": "14/05/2027"
+            },
+            {
+                "amount": 7577,
+                "date": "15/05/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 49341,
+                "date": "16/05/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "17/05/2027"
+            },
+            {
+                "amount": 31477,
+                "date": "18/05/2027"
+            },
+            {
+                "amount": 4939,
+                "date": "19/05/2027"
+            },
+            {
+                "amount": 28467,
+                "date": "20/05/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "21/05/2027"
+            },
+            {
+                "amount": 48032,
+                "date": "22/05/2027"
+            },
+            {
+                "amount": 26340,
+                "date": "23/05/2027"
+            },
+            {
+                "amount": 31389,
+                "date": "24/05/2027"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 53, Sample Street, City 44",
+        "contact": "9876500043",
+        "profession": "Electrician",
+        "annual_income": 486787
+    },
+    {
+        "username": "user45",
+        "account_number": "ACC1045",
+        "credits": [
+            {
+                "amount": 400000,
+                "date": "31/05/2027"
+            },
+            {
+                "amount": 16676,
+                "date": "01/06/2027"
+            },
+            {
+                "amount": 12694,
+                "date": "02/06/2027"
+            },
+            {
+                "amount": 46546,
+                "date": "03/06/2027"
+            },
+            {
+                "amount": 35755,
+                "date": "04/06/2027"
+            },
+            {
+                "amount": 31475,
+                "date": "05/06/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 41432,
+                "date": "06/06/2027"
+            },
+            {
+                "amount": 24773,
+                "date": "07/06/2027"
+            },
+            {
+                "amount": 47802,
+                "date": "08/06/2027"
+            },
+            {
+                "amount": 34834,
+                "date": "09/06/2027"
+            },
+            {
+                "amount": 7922,
+                "date": "10/06/2027"
+            },
+            {
+                "amount": 3156,
+                "date": "11/06/2027"
+            },
+            {
+                "amount": 21638,
+                "date": "12/06/2027"
+            },
+            {
+                "amount": 30110,
+                "date": "13/06/2027"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 54, Sample Street, City 45",
+        "contact": "9876500044",
+        "profession": "Electrician",
+        "annual_income": 447884
+    },
+    {
+        "username": "user46",
+        "account_number": "ACC1046",
+        "credits": [
+            {
+                "amount": 2061,
+                "date": "20/06/2027"
+            },
+            {
+                "amount": 17305,
+                "date": "21/06/2027"
+            },
+            {
+                "amount": 36988,
+                "date": "22/06/2027"
+            },
+            {
+                "amount": 28139,
+                "date": "23/06/2027"
+            },
+            {
+                "amount": 5500,
+                "date": "24/06/2027"
+            },
+            {
+                "amount": 21206,
+                "date": "25/06/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "26/06/2027"
+            },
+            {
+                "amount": 20796,
+                "date": "27/06/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "28/06/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 36748,
+                "date": "29/06/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "30/06/2027"
+            },
+            {
+                "amount": 15199,
+                "date": "01/07/2027"
+            },
+            {
+                "amount": 13904,
+                "date": "02/07/2027"
+            },
+            {
+                "amount": 400000,
+                "date": "03/07/2027"
+            },
+            {
+                "amount": 300000,
+                "date": "04/07/2027"
+            },
+            {
+                "amount": 33708,
+                "date": "05/07/2027"
+            },
+            {
+                "amount": 26460,
+                "date": "06/07/2027"
+            }
+        ],
+        "monthly_transacts": 17,
+        "address": "House 55, Sample Street, City 46",
+        "contact": "9876500045",
+        "profession": "Teacher",
+        "annual_income": 425590
+    },
+    {
+        "username": "user47",
+        "account_number": "ACC1047",
+        "credits": [
+            {
+                "amount": 32312,
+                "date": "10/07/2027"
+            },
+            {
+                "amount": 26614,
+                "date": "11/07/2027"
+            },
+            {
+                "amount": 34645,
+                "date": "12/07/2027"
+            },
+            {
+                "amount": 1219,
+                "date": "13/07/2027"
+            },
+            {
+                "amount": 37668,
+                "date": "14/07/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 26513,
+                "date": "15/07/2027"
+            },
+            {
+                "amount": 32418,
+                "date": "16/07/2027"
+            },
+            {
+                "amount": 34257,
+                "date": "17/07/2027"
+            },
+            {
+                "amount": 34526,
+                "date": "18/07/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "19/07/2027"
+            }
+        ],
+        "monthly_transacts": 10,
+        "address": "House 56, Sample Street, City 47",
+        "contact": "9876500046",
+        "profession": "Civil Engineer",
+        "annual_income": 755852
+    },
+    {
+        "username": "user48",
+        "account_number": "ACC1048",
+        "credits": [
+            {
+                "amount": 11543,
+                "date": "30/07/2027"
+            },
+            {
+                "amount": 13523,
+                "date": "31/07/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "01/08/2027"
+            },
+            {
+                "amount": 30706,
+                "date": "02/08/2027"
+            },
+            {
+                "amount": 41781,
+                "date": "03/08/2027"
+            },
+            {
+                "amount": 21916,
+                "date": "04/08/2027"
+            },
+            {
+                "amount": 670,
+                "date": "05/08/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 5099,
+                "date": "06/08/2027"
+            },
+            {
+                "amount": 30794,
+                "date": "07/08/2027"
+            },
+            {
+                "amount": 23982,
+                "date": "08/08/2027"
+            },
+            {
+                "amount": 23597,
+                "date": "09/08/2027"
+            },
+            {
+                "amount": 42039,
+                "date": "10/08/2027"
+            },
+            {
+                "amount": 300000,
+                "date": "11/08/2027"
+            },
+            {
+                "amount": 19072,
+                "date": "12/08/2027"
+            }
+        ],
+        "monthly_transacts": 14,
+        "address": "House 57, Sample Street, City 48",
+        "contact": "9876500047",
+        "profession": "Farmer",
+        "annual_income": 891825
+    },
+    {
+        "username": "user49",
+        "account_number": "ACC1049",
+        "credits": [
+            {
+                "amount": 43517,
+                "date": "19/08/2027"
+            },
+            {
+                "amount": 39836,
+                "date": "20/08/2027"
+            },
+            {
+                "amount": 9398,
+                "date": "21/08/2027"
+            },
+            {
+                "amount": 40053,
+                "date": "22/08/2027"
+            },
+            {
+                "amount": 43934,
+                "date": "23/08/2027"
+            },
+            {
+                "amount": 33694,
+                "date": "24/08/2027"
+            },
+            {
+                "amount": 47958,
+                "date": "25/08/2027"
+            },
+            {
+                "amount": 46023,
+                "date": "26/08/2027"
+            },
+            {
+                "amount": 1346,
+                "date": "27/08/2027"
+            },
+            {
+                "amount": 36795,
+                "date": "28/08/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 31733,
+                "date": "29/08/2027"
+            },
+            {
+                "amount": 25933,
+                "date": "30/08/2027"
+            },
+            {
+                "amount": 7068,
+                "date": "31/08/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "01/09/2027"
+            },
+            {
+                "amount": 5745,
+                "date": "02/09/2027"
+            },
+            {
+                "amount": 14989,
+                "date": "03/09/2027"
+            }
+        ],
+        "monthly_transacts": 16,
+        "address": "House 58, Sample Street, City 49",
+        "contact": "9876500048",
+        "profession": "Civil Engineer",
+        "annual_income": 978166
+    },
+    {
+        "username": "user50",
+        "account_number": "ACC1050",
+        "credits": [
+            {
+                "amount": 400000,
+                "date": "08/09/2027"
+            },
+            {
+                "amount": 14826,
+                "date": "09/09/2027"
+            },
+            {
+                "amount": 40091,
+                "date": "10/09/2027"
+            },
+            {
+                "amount": 27489,
+                "date": "11/09/2027"
+            },
+            {
+                "amount": 300000,
+                "date": "12/09/2027"
+            },
+            {
+                "amount": 500000,
+                "date": "13/09/2027"
+            },
+            {
+                "amount": 779,
+                "date": "14/09/2027"
+            },
+            {
+                "amount": 11579,
+                "date": "15/09/2027"
+            }
+        ],
+        "debits": [
+            {
+                "amount": 10516,
+                "date": "16/09/2027"
+            },
+            {
+                "amount": 36799,
+                "date": "17/09/2027"
+            },
+            {
+                "amount": 30268,
+                "date": "18/09/2027"
+            },
+            {
+                "amount": 31664,
+                "date": "19/09/2027"
+            },
+            {
+                "amount": 27646,
+                "date": "20/09/2027"
+            },
+            {
+                "amount": 2345,
+                "date": "21/09/2027"
+            },
+            {
+                "amount": 28870,
+                "date": "22/09/2027"
+            }
+        ],
+        "monthly_transacts": 15,
+        "address": "House 59, Sample Street, City 50",
+        "contact": "9876500049",
+        "profession": "Police Officer",
+        "annual_income": 774681
+    }
 ]

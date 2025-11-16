@@ -1,162 +1,135 @@
-const THRESHOLD = 490000; // 4.90 lacs
+const THRESHOLD = 490000;
 let DATASET = [];
+let transactionChart = null;
 
-/* ---------------------------------------------------------
-   SAFE DATE PARSER (Fixes your crash)
-   Accepts BOTH:
-   ✔ dd/mm/yyyy
-   ✔ yyyy-mm-dd
-----------------------------------------------------------*/
+/* ---------------------------------------
+   DATE PARSER (safe)
+--------------------------------------- */
 function parseDMY(dateStr) {
   if (!dateStr) return null;
 
-  // case: dd/mm/yyyy
   if (dateStr.includes("/")) {
     const p = dateStr.split("/");
-    if (p.length === 3) {
-      const d = new Date(p[2], p[1] - 1, p[0]);
-      if (!isNaN(d)) return d;
-    }
+    return new Date(p[2], p[1] - 1, p[0]);
   }
 
-  // case: yyyy-mm-dd
   if (dateStr.includes("-")) {
-    const d = new Date(dateStr);
-    if (!isNaN(d)) return d;
+    return new Date(dateStr);
   }
 
   return null;
 }
 
-/* ---------------------------------------------------------
-   SAFE DAY DIFFERENCE
-----------------------------------------------------------*/
+/* ---------------------------------------
+   DAY DIFFERENCE
+--------------------------------------- */
 function daysDiff(a, b) {
-  if (!a || !b) return null; // prevent crash
-
+  if (!a || !b) return null;
   const A = Date.UTC(a.getFullYear(), a.getMonth(), a.getDate());
   const B = Date.UTC(b.getFullYear(), b.getMonth(), b.getDate());
-  return Math.round((A - B) / (1000 * 60 * 60 * 24));
+  return Math.round((A - B) / 86400000);
 }
 
-/* ---------------------------------------------------------
-   FETCH DATASET.JSON
-----------------------------------------------------------*/
+/* ---------------------------------------
+   LOAD DATASET
+--------------------------------------- */
 async function fetchDataset() {
   try {
     const resp = await fetch("./public/dataset.json");
-
-    if (!resp.ok) throw new Error("dataset.json not found. Start a local server.");
+    if (!resp.ok) throw new Error("Cannot load dataset.json (Run with Live Server)");
 
     const data = await resp.json();
     if (!Array.isArray(data)) throw new Error("Dataset must be an array.");
 
     DATASET = data;
   } catch (err) {
-    console.error(err);
     document.getElementById("content").innerHTML =
       `<div class="box"><h2>Error</h2><p>${err.message}</p></div>`;
   }
 }
 
-/* ---------------------------------------------------------
+/* ---------------------------------------
    SEARCH USER
-----------------------------------------------------------*/
+--------------------------------------- */
 function searchUserData() {
   const q = document.getElementById("searchUser").value.trim();
-  if (!q) return alert("Please enter account number");
+  if (!q) return alert("Enter account number");
 
   const user = DATASET.find(
     (u) => (u.account_number || "").toLowerCase() === q.toLowerCase()
   );
 
   if (!user) {
-    renderNotFound(q);
+    document.getElementById("content").innerHTML =
+      `<div class="box"><h2>No Result</h2><p>No account: ${q}</p></div>`;
+
+    hideAlert();
+    hideFraud();
     return;
   }
 
   renderUser(user);
   evaluateAlerts(user);
+  evaluateFraud(user);
+  generateLineChart(user);
 }
 
-/* ---------------------------------------------------------
-   RENDER IF NOT FOUND
-----------------------------------------------------------*/
-function renderNotFound(q) {
-  document.getElementById("content").innerHTML = `
-    <div class="box">
-      <h2>No user found</h2>
-      <p>No account: <strong>${q}</strong></p>
-    </div>
-  `;
-  hideAlert();
-}
-
-/* ---------------------------------------------------------
-   RENDER USER DETAILS AND TRANSACTIONS
-----------------------------------------------------------*/
+/* ---------------------------------------
+   RENDER USER DETAILS
+--------------------------------------- */
 function renderUser(user) {
   const content = document.getElementById("content");
 
-  const userHtml = `
+  let html = `
     <div class="box">
       <h2>User Details</h2>
-      <p><strong>Name:</strong> ${escapeHtml(user.username)}</p>
-      <p><strong>Account No:</strong> ${escapeHtml(user.account_number)}</p>
-      <p><strong>Contact:</strong> ${escapeHtml(user.contact)}</p>
-      <p><strong>Address:</strong> ${escapeHtml(user.address)}</p>
-      <p><strong>Monthly Transactions:</strong> ${escapeHtml(String(user.monthly_transacts))}</p>
+      <p><strong>Name:</strong> ${user.username}</p>
+      <p><strong>Account:</strong> ${user.account_number}</p>
+      <p><strong>Contact:</strong> ${user.contact}</p>
+      <p><strong>Address:</strong> ${user.address}</p>
+      <p><strong>Profession:</strong> ${user.profession || "Not updated"}</p>
+      <p><strong>Annual Income:</strong> ₹${user.annual_income || "Not updated"}</p>
+      <p><strong>Monthly Tx:</strong> ${user.monthly_transacts}</p>
     </div>
-  `;
 
-  const creditsList = (user.credits || [])
-    .map((tx) => {
-      const hi = Number(tx.amount) > THRESHOLD;
-      return `<li ${hi ? highlightCss() : ""}>₹${numberWithCommas(
-        tx.amount
-      )} — ${tx.date}</li>`;
-    })
-    .join("");
-
-  const creditsHtml = `
     <div class="box">
-      <h2>Credited Amounts</h2>
-      <ul>${creditsList || "<li>No records</li>"}</ul>
+      <h2>Credits</h2>
+      <ul>
+        ${user.credits.map(t => `<li>₹${t.amount} — ${t.date}</li>`).join("")}
+      </ul>
     </div>
-  `;
 
-  const debitsList = (user.debits || [])
-    .map((tx) => {
-      const hi = Number(tx.amount) > THRESHOLD;
-      return `<li ${hi ? highlightCss() : ""}>₹${numberWithCommas(
-        tx.amount
-      )} — ${tx.date}</li>`;
-    })
-    .join("");
-
-  const debitsHtml = `
     <div class="box">
-      <h2>Debited Amounts</h2>
-      <ul>${debitsList || "<li>No records</li>"}</ul>
+      <h2>Debits</h2>
+      <ul>
+        ${user.debits.map(t => `<li>₹${t.amount} — ${t.date}</li>`).join("")}
+      </ul>
     </div>
   `;
 
-  content.innerHTML = userHtml + creditsHtml + debitsHtml;
+  content.innerHTML = html;
 }
 
-/* ---------------------------------------------------------
-   ALERT SYSTEM
-----------------------------------------------------------*/
+/* ---------------------------------------
+   HIGH VALUE ALERT SYSTEM
+--------------------------------------- */
 function evaluateAlerts(user) {
+  const income = Number(user.annual_income || 0);
+
+  // Rich users (>5 lakh income) ignore alerts
+  if (income > 500000) {
+    hideAlert();
+    return;
+  }
+
   let highTxns = [];
 
   function collect(arr) {
-    (arr || []).forEach((tx) => {
-      if (Number(tx.amount) > THRESHOLD) {
+    (arr || []).forEach(tx => {
+      if (tx.amount > THRESHOLD) {
         highTxns.push({
           amount: tx.amount,
-          dateStr: tx.date,
-          dateObj: parseDMY(tx.date),
+          dateObj: parseDMY(tx.date)
         });
       }
     });
@@ -165,109 +138,128 @@ function evaluateAlerts(user) {
   collect(user.credits);
   collect(user.debits);
 
-  // remove invalid dates
-  highTxns = highTxns.filter((t) => t.dateObj);
+  if (highTxns.length === 0) return hideAlert();
 
-  if (highTxns.length === 0) {
-    hideAlert();
-    return;
-  }
-
-  // sort by date
+  highTxns = highTxns.filter(t => t.dateObj);
   highTxns.sort((a, b) => a.dateObj - b.dateObj);
 
-  // check consecutive days
   let consecutive = false;
   for (let i = 1; i < highTxns.length; i++) {
-    const diff = daysDiff(highTxns[i].dateObj, highTxns[i - 1].dateObj);
-    if (diff === 1) {
+    if (daysDiff(highTxns[i].dateObj, highTxns[i - 1].dateObj) === 1) {
       consecutive = true;
       break;
     }
   }
 
   if (consecutive) {
-    showAlert("red", "Red Alert: High-value transactions on consecutive dates!");
+    showAlert("red", "🚨 Red Alert: High-value transactions on consecutive dates!");
   } else {
-    showAlert(
-      "yellow",
-      `Warning: ${highTxns.length} high-value transactions detected.`
-    );
+    showAlert("yellow", `⚠️ ${highTxns.length} high-value transactions detected.`);
   }
 }
 
-/* ---------------------------------------------------------
-   SHOW/HIDE ALERT
-----------------------------------------------------------*/
+/* ---------------------------------------
+   FRAUD ALERT (NEW LOGIC)
+   annual_income < THRESHOLD
+   AND more than 2 transactions on the same day
+--------------------------------------- */
+function evaluateFraud(user) {
+  const income = Number(user.annual_income || 0);
+
+  // 1) Check income
+  if (income >= THRESHOLD) {
+    hideFraud();
+    return;
+  }
+
+  // 2) Count all transactions (credit + debit) day-wise
+  const dateMap = {};
+
+  [...user.credits, ...user.debits].forEach(tx => {
+    if (!dateMap[tx.date]) dateMap[tx.date] = 0;
+    dateMap[tx.date]++;
+  });
+
+  // Check if ANY day has more than 2 transactions
+  const fraudDetected = Object.values(dateMap).some(count => count > 2);
+
+  if (fraudDetected) {
+    const box = document.getElementById("fraudAlert");
+    box.style.display = "block";
+    box.style.background = "#cfe7ff";
+    box.style.borderLeft = "6px solid #0066cc";
+    box.textContent = `🔵 Fraud Alert: More than 2 transactions detected on a single day!`;
+  } else {
+    hideFraud();
+  }
+}
+
+function hideFraud() {
+  document.getElementById("fraudAlert").style.display = "none";
+}
+
+/* ---------------------------------------
+   ALERT BOX (yellow/red)
+--------------------------------------- */
 function showAlert(level, msg) {
   const box = document.getElementById("alertBox");
   box.style.display = "block";
-
-  const icon = level === "red" ? "⛔" : "⚠️";
-  box.textContent = `${icon} ${msg}`;
 
   if (level === "red") {
     box.style.background = "#ffb3b3";
     box.style.borderLeft = "6px solid #d10000";
   } else {
-    box.style.background = "#ffd27f";
-    box.style.borderLeft = "6px solid #c17d00";
+    box.style.background = "#ffe6b3";
+    box.style.borderLeft = "6px solid #cc8a00";
   }
+
+  box.textContent = msg;
 }
 
 function hideAlert() {
   document.getElementById("alertBox").style.display = "none";
 }
 
-/* ---------------------------------------------------------
-   HELPERS
-----------------------------------------------------------*/
-function numberWithCommas(x) {
-  let num = x.toString();
-  let lastThree = num.substring(num.length - 3);
-  let other = num.substring(0, num.length - 3);
-  if (other !== "") lastThree = "," + lastThree;
-  return other.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+/* ---------------------------------------
+   CHART.JS LINE CHART
+--------------------------------------- */
+function generateLineChart(user) {
+  const ctx = document.getElementById("linechart").getContext("2d");
+
+  if (transactionChart) transactionChart.destroy();
+
+  const allLabels = [...user.credits, ...user.debits].map(t => t.date);
+  const creditAmounts = user.credits.map(t => t.amount);
+  const debitAmounts = user.debits.map(t => t.amount);
+
+  transactionChart = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels: allLabels,
+      datasets: [
+        {
+          label: "Credits",
+          data: creditAmounts,
+          borderColor: "green",
+          borderWidth: 2,
+          tension: 0.4
+        },
+        {
+          label: "Debits",
+          data: debitAmounts,
+          borderColor: "red",
+          borderWidth: 2,
+          tension: 0.4
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: true }
+      }
+    }
+  });
 }
 
-function escapeHtml(s) {
-  if (!s) return "-";
-  return String(s)
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-function highlightCss() {
-  return `style="font-weight:bold;background:#fff2cc;padding:6px;border-radius:4px;"`;
-}
-
-/* ---------------------------------------------------------
-   APPEND EXTRA USER WITHOUT REMOVING PREVIOUS
-----------------------------------------------------------*/
-function appendUser(user) {
-  const content = document.getElementById("content");
-
-  const block = document.createElement("div");
-  block.className = "box";
-  block.innerHTML = `
-      <h2>APPENDED USER</h2>
-      <p><strong>Name:</strong> ${escapeHtml(user.username)}</p>
-      <p><strong>Account:</strong> ${escapeHtml(user.account_number)}</p>
-      <p><strong>Address:</strong> ${escapeHtml(user.address)}</p>
-      <p><strong>Monthly:</strong> ${escapeHtml(
-        String(user.monthly_transacts)
-      )}</p>
-  `;
-
-  content.appendChild(block);
-}
-
-/* ---------------------------------------------------------
-   EXPORT FUNCTIONS
-----------------------------------------------------------*/
-window.searchUserData = searchUserData;
-window.appendUser = appendUser;
- 
 window.addEventListener("load", fetchDataset);

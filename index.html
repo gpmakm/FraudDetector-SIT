@@ -1,1 +1,176 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>Fraud Detection Dashboard</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; font-family: "Segoe UI", Arial, sans-serif; } body { background: #f3e8ff; } /* NAVBAR */ nav { /* background: linear-gradient(90deg, #5b0bb5, #8f36ff); */ background-color: #0b2c4d; padding: 16px 35px; color: white; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 3px 14px rgba(75, 0, 130, 0.3); position: sticky; top: 0; z-index: 999; border-bottom: 2px solid rgba(255, 255, 255, 0.25); } nav .logo { font-size: 24px; font-weight: 700; display: flex; gap: 12px; align-items: center; letter-spacing: 1px; } nav .logo span { font-size: 28px; } /* SEARCH SECTION */ .body-search { margin: 28px auto 15px auto; display: flex; justify-content: center; gap: 12px; width: 90%; } .body-search input { width: 360px; padding: 14px 16px; border-radius: 12px; border: 2px solid #d7b8ff; font-size: 16px; background: #fff; transition: 0.3s; box-shadow: 0 3px 10px rgba(128, 0, 255, 0.1); } .body-search input:focus { border-color: #8f36ff; box-shadow: 0 0 10px rgba(143, 54, 255, 0.4); outline: none; } .body-search button { padding: 14px 22px; border: none; background: #0b2c4d; color: white; font-size: 15px; font-weight: 600; border-radius: 12px; cursor: pointer; display: flex; align-items: center; gap: 6px; box-shadow: 0 4px 12px rgba(128, 0, 255, 0.25); transition: 0.3s; } .body-search button:hover { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(128, 0, 255, 0.35); } /* ALERT BLOCK */ .alert { width: 92%; margin: 12px auto; padding: 15px 20px; font-size: 17px; border-radius: 10px; font-weight: 600; display: none; box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12); animation: fadeIn 0.5s ease; } @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } } /* CARD GRID */ .container { padding: 25px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; } /* CARD */ .box { background: white; border-radius: 14px; padding: 22px; box-shadow: 0 4px 16px rgba(128, 0, 255, 0.12); transition: 0.25s; border-top: 6px solid #0b2c4d; } .box:hover { transform: translateY(-6px); box-shadow: 0 6px 20px rgba(128, 0, 255, 0.20); } .box h2 { font-size: 22px; margin-bottom: 12px; color: #0b2c4d; font-weight: 700; } .box ul li { margin: 6px 0; padding: 6px; border-radius: 6px; list-style: none; background: #f8f3ff; } </style> </head> <body> <!-- NAVBAR --> <nav> <div class="logo"><span>🛡️</span> Fraud Detection System</div> </nav> <!-- SEARCH BAR --> <div class="body-search"> <input type="text" id="searchUser" placeholder="Enter Account Number..."> <button onclick="searchUserData()">🔍 Search</button> </div> <!-- ALERT BLOCK --> <div id="alertBox" class="alert"></div> <!-- CONTENT CARDS --> <div id="content" class="container"></div> <div> <canvas id="lnechart"></canvas> </div> <script src="script.js"></script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fraud Detection Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Arial, sans-serif;
+        }
+
+        body {
+            background: #f3e8ff;
+        }
+
+        /* NAVBAR */
+        nav {
+            /* background: linear-gradient(90deg, #5b0bb5, #8f36ff); */
+            background-color: #0b2c4d;
+            padding: 16px 35px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 3px 14px rgba(75, 0, 130, 0.3);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+        }
+
+        nav .logo {
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            letter-spacing: 1px;
+        }
+
+        nav .logo span {
+            font-size: 28px;
+        }
+
+        /* SEARCH SECTION */
+        .body-search {
+            margin: 28px auto 15px auto;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            width: 90%;
+        }
+
+        .body-search input {
+            width: 360px;
+            padding: 14px 16px;
+            border-radius: 12px;
+            border: 2px solid #d7b8ff;
+            font-size: 16px;
+            background: #fff;
+            transition: 0.3s;
+            box-shadow: 0 3px 10px rgba(128, 0, 255, 0.1);
+        }
+
+        .body-search input:focus {
+            border-color: #8f36ff;
+            box-shadow: 0 0 10px rgba(143, 54, 255, 0.4);
+            outline: none;
+        }
+
+        .body-search button {
+            padding: 14px 22px;
+            border: none;
+            background: #0b2c4d;
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            border-radius: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: 0 4px 12px rgba(128, 0, 255, 0.25);
+            transition: 0.3s;
+        }
+
+        .body-search button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(128, 0, 255, 0.35);
+        }
+
+        /* ALERT BLOCK */
+        .alert {
+            width: 92%;
+            margin: 12px auto;
+            padding: 15px 20px;
+            font-size: 17px;
+            border-radius: 10px;
+            font-weight: 600;
+            display: none;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+            animation: fadeIn 0.5s ease;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* CARD GRID */
+        .container {
+            padding: 25px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* CARD */
+        .box {
+            background: white;
+            border-radius: 14px;
+            padding: 22px;
+            box-shadow: 0 4px 16px rgba(128, 0, 255, 0.12);
+            transition: 0.25s;
+            border-top: 6px solid #0b2c4d;
+        }
+
+        .box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 20px rgba(128, 0, 255, 0.20);
+        }
+
+        .box h2 {
+            font-size: 22px;
+            margin-bottom: 12px;
+            color: #0b2c4d;
+            font-weight: 700;
+        }
+
+        .box ul li {
+            margin: 6px 0;
+            padding: 6px;
+            border-radius: 6px;
+            list-style: none;
+            background: #f8f3ff;
+        }
+    </style>
+</head>
+
+<body> <!-- NAVBAR -->
+    <nav>
+        <div class="logo"><span>🕵️‍♂️</span> Fraud Detection System</div>
+    </nav> <!-- SEARCH BAR -->
+    <div class="body-search"> <input type="text" id="searchUser" placeholder="Enter Account Number..."> <button
+            onclick="searchUserData()">🔍 Search</button> </div> <!-- ALERT BLOCK -->
+    <!-- ALERT BLOCK -->
+<div id="alertBox" class="alert"></div>
+<div id="fraudAlert" class="alert"></div>
+ <!-- CONTENT CARDS -->
+    <div id="content" class="container"></div>
+    <div> <canvas id="linechart" style="width:100px; max-width:700px "></canvas> </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
