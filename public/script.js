@@ -19,7 +19,23 @@ function parseDMY(dateStr) {
 
   return null;
 }
+async function loadUsers() {
+  const res = await fetch("http://localhost:3000/api/users");
+  const data = await res.json();
 
+  document.getElementById("userArea").innerHTML =
+    `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+}
+
+async function generateFraud() {
+  const res = await fetch("http://localhost:3000/api/generate-fraud-report");
+  const result = await res.json();
+
+  alert("Fraud report generated! Total frauds: " + result.fraudCount);
+
+  // show download button
+  document.getElementById("downloadLink").style.display = "block";
+}
 /* ---------------------------------------
    DAY DIFFERENCE
 --------------------------------------- */
@@ -153,6 +169,7 @@ function evaluateAlerts(user) {
 
   if (consecutive) {
     showAlert("red", "🚨 Red Alert: High-value transactions on consecutive dates!");
+    
   } else {
     showAlert("yellow", `⚠️ ${highTxns.length} high-value transactions detected.`);
   }

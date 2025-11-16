@@ -1,0 +1,32 @@
+[
+  {
+    "fraud_account_number": "ACC1008",
+    "fraud_accnt_holder": "user8",
+    "total_fraud_money": 3715874
+  },
+  {
+    "fraud_account_number": "ACC1020",
+    "fraud_accnt_holder": "user20",
+    "total_fraud_money": 500000
+  },
+  {
+    "fraud_account_number": "ACC1024",
+    "fraud_accnt_holder": "user24",
+    "total_fraud_money": 570806
+  },
+  {
+    "fraud_account_number": "ACC1041",
+    "fraud_accnt_holder": "user41",
+    "total_fraud_money": 1080308
+  },
+  {
+    "fraud_account_number": "ACC1045",
+    "fraud_accnt_holder": "user45",
+    "total_fraud_money": 715197
+  },
+  {
+    "fraud_account_number": "ACC1046",
+    "fraud_accnt_holder": "user46",
+    "total_fraud_money": 1000000
+  }
+]

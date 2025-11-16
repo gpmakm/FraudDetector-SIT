@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Fraud Report</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f4f4f4;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .panel {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background: #f0f0f0;
+    }
+    #downloadBtn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #downloadBtn:hover {
+      background: #0056b3;
+    }
+    #status {
+      margin-top: 10px;
+      font-weight: bold;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bank Admin Panel - Fraud Report</h1>
+
+  <div class="panel">
+    <h2>Fraudulent Accounts</h2>
+    <div id="status">Loading fraud data...</div>
+    <table id="fraudTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Account Number</th>
+          <th>Account Holder</th>
+          <th>Total Fraud Amount (₹)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be injected here -->
+      </tbody>
+    </table>
+    <button id="downloadBtn">Download JSON</button>
+  </div>
+
+  <script>
+    async function loadFraudData() {
+      const statusEl = document.getElementById('status');
+      try {
+        const res = await fetch('./fraudDetails.json'); // path served by Express
+        if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
+        const data = await res.json();
+
+        const tbody = document.querySelector('#fraudTable tbody');
+        tbody.innerHTML = '';
+
+        if (data.length === 0) {
+          statusEl.textContent = 'No frauds detected.';
+          return;
+        }
+
+        statusEl.textContent = `Found ${data.length} fraudulent account(s).`;
+
+        data.forEach((item, index) => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${item.fraud_account_number}</td>
+            <td>${item.fraud_accnt_holder}</td>
+            <td>₹${numberWithCommas(item.total_fraud_money)}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+
+        // Download button functionality
+        document.getElementById('downloadBtn').onclick = () => {
+          const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = 'fraudDetails.json';
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          URL.revokeObjectURL(url);
+        };
+
+      } catch (err) {
+        statusEl.textContent = `Error fetching fraud data: ${err.message}`;
+      }
+    }
+
+    function numberWithCommas(x) {
+      if (x == null) return '-';
+      let num = x.toString();
+      let lastThree = num.substring(num.length - 3);
+      let otherNumbers = num.substring(0, num.length - 3);
+      if (otherNumbers !== '') {
+        lastThree = ',' + lastThree;
+      }
+      return otherNumbers.replace(/\B(?=(\d{2})+(?!\d))/g, ",") + lastThree;
+    }
+
+    // Load fraud data on page load
+    window.addEventListener('load', loadFraudData);
+  </script>
+
+</body>
+</html>
